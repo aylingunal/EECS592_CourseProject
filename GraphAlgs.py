@@ -170,4 +170,112 @@ def main():
 
 if __name__ == '__main__':
     main()
+    
+    
+    
+GraphMetrics:   
+# import networkx as nx
+# import random
+
+# '''calculate the density of a node given its id and graph'''
+# def node_density(node_id, graph, args):
+#     node_density = 0
+#     # since we're looping thru edges, check for edge directions
+#     directed = False
+#     if args['GraphType'] == 'directed':
+#         directed = True
+#     # loop thru edges
+#     edges_seen = []
+#     for u, v in graph.edges:
+#         # check that edge is connected to node_id
+#         if ((node_id == u) or (node_id == v)):
+#             if (u,v) not in edges_seen:
+#                 # if directed, just check (u,v)
+#                 if directed:
+#                     edges_seen.append((u,v))
+#                     node_density += graph.edges[u,v]['weight']
+#                 # if undirected, don't repeat edges since (u,v)==(v,u)
+#                 else:
+#                     if (v,u) not in edges_seen:
+#                         edges_seen.append((u,v))
+#                         edges_seen.append((v,u))
+#                         node_density += graph.edges[u,v]['weight']
+    
+#     # node density = sum of edge weights / num vertices # TODO --> double check if H = # verts or # neighbors
+#     return node_density/len(graph.nodes)
+
+# '''compute the minimum density and return associated nodes.
+# function assumes that graph is not empty. '''
+# def minimum_density(graph, args):
+#     tmp = -1
+#     # **this is a terrible way of trivially picking a baseline node but networkx data structure is not allowing more obvious solutions!!
+#     for item in graph.nodes:
+#         tmp = item
+#         break
+#     # have random baseline comparison node for finding min density
+#     cur_min_density = node_density(tmp,graph,args)
+#     # track the weakest nodes
+#     weak_nodes = []
+#     # loop thru graph and find actual minimum density
+#     for node in graph.nodes:
+#         cur_node_density = node_density(node,graph,args)
+#         if cur_node_density < cur_min_density:
+#             # reassign min_density
+#             cur_min_density = cur_node_density
+#             # clear list of nodes w/ prev weakness threshold
+#             weak_nodes.clear()
+#             weak_nodes.append(node)
+#         # track nodes with the min density
+#         elif cur_node_density == cur_min_density:
+#             weak_nodes.append(node)
+    
+#     return cur_min_density, weak_nodes
+
+
+# # calculate density of input graph
+# def graph_density(graph):
+#     # density = # edges / # nodes
+#     return len(graph.edges)/len(graph.nodes)
+
+
+''' this file is for general helper functions, not neces graph related '''
+
+# import collections
+# import math
+
+# ''' get cosine similarity between two texts '''
+# def compute_cosine_sim(vec1, vec2):
+#     # sentences to vectors
+#     vec1 = collections.Counter(vec1)
+#     vec2 = collections.Counter(vec2)
+#     # compute magnitudes of each vector
+#     mag1 = 0
+#     mag2 = 0
+#     for key in vec1.keys():
+#         mag1 += math.pow(vec1[key],2)
+#     for key in vec2.keys():
+#         mag2 += math.pow(vec2[key],2)
+#     mag1 = math.sqrt(mag1)
+#     mag2 = math.sqrt(mag2)
+#     # compute numerator
+#     numerator = 0
+#     for term in set(list(vec1.keys()) + list(vec2.keys())):
+#         numerator += vec1[key] * vec2[key]
+#     # check case for 0 in-common terms
+#     if mag1 * mag2 == 0:
+#         return 0
+
+#     return float(numerator / (mag1*mag2))
+
+
+
+
+
+
+
+
+
+
+
+
 
