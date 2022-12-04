@@ -1,17 +1,20 @@
 from GraphBuilder import *
 from GraphMetrics import *
+import copy
 
 ''' compute the density variation sequence '''
 def density_variation_seq(graph, args):
+    # make a copy of the graph to work with
+    graph_copy = copy.deepcopy(graph)
     # initialize vars to track min densities and weak nodes
     seq_min_densities = []
     seq_weak_nodes = []
     # compute min density and remove weak nodes until graph is empty
-    while len(graph.nodes) > 0:
-        cur_min_density, weak_nodes = minimum_density(graph, args)
+    while len(graph_copy.nodes) > 0:
+        cur_min_density, weak_nodes = minimum_density(graph_copy, args)
         seq_min_densities.append(cur_min_density)
         seq_weak_nodes.append(weak_nodes)
-        graph.remove_nodes_from(weak_nodes)
+        graph_copy.remove_nodes_from(weak_nodes)
 
     return seq_min_densities, seq_weak_nodes
 
@@ -62,27 +65,22 @@ def identify_core_nodes(seq_min_densities, seq_weak_nodes,
                                     condition2 = False
                         # if condition 2 also satisfied, add as a core node
                         if condition2:
-                            core_nodes.append(seq_min_densities[i])
+                            core_nodes.extend(seq_weak_nodes[i])
 
     return core_nodes
 
 
 ''' partition the core nodes into cluster cores.
-the clustering method here can be a little more flexible / optional
+the clustering method here can be a little more flexible / optional;
+it's just a measure to help reduce the number of total nodes to be 
+clustered.
  '''
 def partition_core_nodes(core_nodes):
+    # set up dict with core nodes as keys and cluster nodes as values
     core_nodes_dict = {}
-    dummy_key = 0
-    for node_set in core_nodes:
-        tmp_dict = {'core_nodes':core_nodes[dummy_key],'non_core_nodes':[]}
-        core_nodes_dict[dummy_key] = tmp_dict
-        dummy_key += 1
-
+    for node in core_nodes:
+        core_nodes_dict[node] = []
     return core_nodes_dict
-    # basic
-   # return dict.fromkeys(core_nodes, [])
-    # TODO --> cluster similar core_nodes
-
 
 ''' assign remaining non-core nodes to clusters 
 for each non-core node, compute similarity between
@@ -90,8 +88,6 @@ it and existing clusters; assign to highest sim cluster
 options for measuring similarity 
 - sim(n,C) = average weights between n and all nodes in C
 - sim(n,C) = max weight between n and a node in cluster
-
-
 pseudo
 clusters = core_nodes
 for node in graph not in core_nodes:
@@ -102,180 +98,66 @@ for node in graph not in core_nodes:
             max_sim, max_cluster = cur_sim, core_node
     clusters[max_cluster].append(node)
 '''
-# TODO --> are we expanding clusters as they go OR just comparing to
-#           original clusters passed to the function
-# def expand_clusters(core_nodes_dict, graph):
-
-#     # for node in graph.nodes:
-#     #     for dummy_key in core_nodes_dict.keys():
-#     #         if node not in core_nodes_dict[dummy_key]['core_nodes']:
-                
-#     clusters = dict.fromkeys(cluster_cores, [])
-#     for node in graph.nodes:
-#         # check only remaining non-core nodes
-#         if node not in cluster_cores.keys():
-#             max_similarity = 0
-#             max_cluster = -1
-#             # find best core_node to assign node to
-#             for core_node in cluster_cores.keys():
-#                 # assuming that graph is undirected
-#                 if (node,core_node) in graph.edges:
-#                     if graph.edges(node,core_node)['weight'] > max_similarity:
-#                         max_similarity = graph.edges(node,core_node)['weight']
-#                         max_cluster = core_node
-#             clusters[max_cluster].append(node)
-#     return clusters
-
-            
-
-
-
+def expand_clusters(core_nodes_dict, graph):
+    print('beginning expand clusters...')
+    for node in graph.nodes:
+        # check only remaining non-core nodes
+        if node not in core_nodes_dict.keys():
+            # set up comparison node calculation
+            ind = 0
+            max_sim = 0
+            max_node = 0
+            # iterate thru clusters
+            for core_node in core_nodes_dict.keys():
+                # define the cluster (i.e. add core node to assoc cluster nodes)
+                cluster_set = [core_node]
+                cluster_set.extend(core_nodes_dict[core_node])
+                # calculate similarity between node and cluster
+                cur_node_cluster_sim = node_cluster_similarity(node, cluster_set, graph)
+                # initialize comparison node
+                if ind == 0:
+                    max_sim = cur_node_cluster_sim
+                    max_node = core_node
+                ind += 1
+                # update max sim and node if necessary
+                if cur_node_cluster_sim > max_sim:
+                    max_sim = cur_node_cluster_sim
+                    max_node = core_node
+            # add the node to the cluster
+            core_nodes_dict[max_node].append(node)
+    # return expanded clusters
+    return core_nodes_dict
 
 
 ''' implements core-clustering
-
 the core cluster algorithm is comprised of 4 steps:
 1. computing the sequence of density variation
 2. identification of core nodes
 3. partitioning core nodes into cluster cores
 4. assign non-core nodes to cluster cores 
  '''
-def core_cluster(graph):
-    # compute density variation seq
-    args = {'GraphType':'undirected'}
-
-
-''' implements graphseg
- ''' 
-def graph_seg(graph):
-    # TODO
-    return []
+def core_cluster(graph, args):
+    # core clustering time oooo 
+    seq_min_densities, seq_weak_nodes = density_variation_seq(graph, args)
+    core_nodes = identify_core_nodes(seq_min_densities, seq_weak_nodes, alpha=.01, beta=1)
+    core_nodes_dict = partition_core_nodes(core_nodes)
+    core_nodes_dict = expand_clusters(core_nodes_dict, graph)
 
 
 
 def main():
     # test sample text
-    # raw_text = "Premium composition leather exterior and soft interior offer great protection against daily use; Classic and professional design, solid construction\
-    #             Support auto Sleep/Wake feature; Cover features magnetic closure; Features a large front document card pocket to keep personal belongings\
-    #             Full access to all features (Cameras, Speaker, Ports and Buttons); Multiple slots able to set up multiple horizontal stand angles\
-    #             Built-in elastic pencil holder for Apple Pencil or stylus"
-    raw_text = "Premium composition leather exterior and soft interior offer great protection against daily use"
+    raw_text = "Premium composition leather exterior and soft interior offer great protection against daily use; Classic and professional design, solid construction\
+                Support auto Sleep/Wake feature; Cover features magnetic closure; Features a large front document card pocket to keep personal belongings\
+                Full access to all features (Cameras, Speaker, Ports and Buttons); Multiple slots able to set up multiple horizontal stand angles\
+                Built-in elastic pencil holder for Apple Pencil or stylus"
+    #raw_text = "Premium composition leather exterior and soft interior offer great protection against daily use"
     args = {'TokenType':'word', 'EdgeType':'single', 'GraphType':'undirected'}
     # build graph
     graph = build_text_graph(raw_text,args)
-    # unit tests lol
-    seq_min_densities, seq_weak_nodes = density_variation_seq(graph, args)
-    core_nodes = identify_core_nodes(seq_min_densities, seq_weak_nodes, alpha=.01, beta=1)
-    #core_nodes_dict = partition_core_nodes(core_nodes)
+    core_cluster(graph, args)
+
+
 
 if __name__ == '__main__':
     main()
-    
-    
-    
-GraphMetrics:   
-# import networkx as nx
-# import random
-
-# '''calculate the density of a node given its id and graph'''
-# def node_density(node_id, graph, args):
-#     node_density = 0
-#     # since we're looping thru edges, check for edge directions
-#     directed = False
-#     if args['GraphType'] == 'directed':
-#         directed = True
-#     # loop thru edges
-#     edges_seen = []
-#     for u, v in graph.edges:
-#         # check that edge is connected to node_id
-#         if ((node_id == u) or (node_id == v)):
-#             if (u,v) not in edges_seen:
-#                 # if directed, just check (u,v)
-#                 if directed:
-#                     edges_seen.append((u,v))
-#                     node_density += graph.edges[u,v]['weight']
-#                 # if undirected, don't repeat edges since (u,v)==(v,u)
-#                 else:
-#                     if (v,u) not in edges_seen:
-#                         edges_seen.append((u,v))
-#                         edges_seen.append((v,u))
-#                         node_density += graph.edges[u,v]['weight']
-    
-#     # node density = sum of edge weights / num vertices # TODO --> double check if H = # verts or # neighbors
-#     return node_density/len(graph.nodes)
-
-# '''compute the minimum density and return associated nodes.
-# function assumes that graph is not empty. '''
-# def minimum_density(graph, args):
-#     tmp = -1
-#     # **this is a terrible way of trivially picking a baseline node but networkx data structure is not allowing more obvious solutions!!
-#     for item in graph.nodes:
-#         tmp = item
-#         break
-#     # have random baseline comparison node for finding min density
-#     cur_min_density = node_density(tmp,graph,args)
-#     # track the weakest nodes
-#     weak_nodes = []
-#     # loop thru graph and find actual minimum density
-#     for node in graph.nodes:
-#         cur_node_density = node_density(node,graph,args)
-#         if cur_node_density < cur_min_density:
-#             # reassign min_density
-#             cur_min_density = cur_node_density
-#             # clear list of nodes w/ prev weakness threshold
-#             weak_nodes.clear()
-#             weak_nodes.append(node)
-#         # track nodes with the min density
-#         elif cur_node_density == cur_min_density:
-#             weak_nodes.append(node)
-    
-#     return cur_min_density, weak_nodes
-
-
-# # calculate density of input graph
-# def graph_density(graph):
-#     # density = # edges / # nodes
-#     return len(graph.edges)/len(graph.nodes)
-
-
-''' this file is for general helper functions, not neces graph related '''
-
-# import collections
-# import math
-
-# ''' get cosine similarity between two texts '''
-# def compute_cosine_sim(vec1, vec2):
-#     # sentences to vectors
-#     vec1 = collections.Counter(vec1)
-#     vec2 = collections.Counter(vec2)
-#     # compute magnitudes of each vector
-#     mag1 = 0
-#     mag2 = 0
-#     for key in vec1.keys():
-#         mag1 += math.pow(vec1[key],2)
-#     for key in vec2.keys():
-#         mag2 += math.pow(vec2[key],2)
-#     mag1 = math.sqrt(mag1)
-#     mag2 = math.sqrt(mag2)
-#     # compute numerator
-#     numerator = 0
-#     for term in set(list(vec1.keys()) + list(vec2.keys())):
-#         numerator += vec1[key] * vec2[key]
-#     # check case for 0 in-common terms
-#     if mag1 * mag2 == 0:
-#         return 0
-
-#     return float(numerator / (mag1*mag2))
-
-
-
-
-
-
-
-
-
-
-
-
-
