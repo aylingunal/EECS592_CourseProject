@@ -1,14 +1,12 @@
-
-from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
+from nltk.translate.gleu_score import sentence_gleu
 import gzip, os, json, ast
 
-def evaluate_bleu(prediction, references):
+def evaluate_gleu(prediction, references):
     prediction = prediction.split()
     for reference in references:
         reference = reference.split()
     references = [reference.split() for reference in references]
-    chencherry = SmoothingFunction()
-    return sentence_bleu(references, prediction, smoothing_function=chencherry.method1)
+    return sentence_gleu(references, prediction)
 
 if __name__ == '__main__':
     # Execute when the module is not initialized from an import statement.
@@ -21,5 +19,5 @@ if __name__ == '__main__':
             
             references.append(question) # Split words into array
     prediction = 'this is a test'
-    print(evaluate_bleu(prediction, references))
+    print(evaluate_gleu(prediction, references))
     

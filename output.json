@@ -1,0 +1,23 @@
+[
+    {
+        "description": "BEEMSTER GOUDA CHEESE AGED 18/24 MONTHS Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "question": "WHAT ARE THE INGREDIENTS?",
+        "gleu_score": 1.0,
+        "bleu_score": 1.0,
+        "meteor_score": 0.9921875
+    },
+    {
+        "description": "Shipped from UK, please allow 10 to 21 business days for arrival. ex lib pub by Applied Science Publishers ltd Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "question": "Is this product FDA approved?",
+        "gleu_score": 0.42857142857142855,
+        "bleu_score": 0.33437015248821106,
+        "meteor_score": 0.7181571815718157
+    },
+    {
+        "description": "Jazz up your cakes with a sparkling monogram from our Sparkling collection! These single letter monograms are silver plated covered in crystal rhinestones and come in several sizes for your convenience. You can use these simple yet elegant monogram cake toppers to make a Sweet 16 even sweeter or use them for a wedding cake to make the cake more special.",
+        "question": "What is the expiration date on this item?",
+        "gleu_score": 0.8461538461538461,
+        "bleu_score": 1.0,
+        "meteor_score": 0.939622641509434
+    }
+]
