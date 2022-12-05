@@ -1,0 +1,1395 @@
+[
+    {
+        "questions": [
+            "What is the heat of this compared to the yellow and red curry?",
+            "Is there MSG in it?",
+            "what are the ingredients exactly in this product? Thanks!",
+            "How important is the expiraci&oacute;n date on this curry paste?",
+            "The product description says 14 oz., but the picture shows the 2 lb. 3 oz. version. Which is it? Thanks.",
+            "Why is the photo of the product for Red Curry, and they are selling Green Curry? Which will I get if I order this?"
+        ],
+        "description": "Mae Ploy Thai green curry paste. Ingredients green chile, garlic, shallot, lemongrass, salt, galanga, shrimp paste, kaffir lime peel, coriander seed, pepper, cumin, turmeric. Actual product packaging and materials may contain more and different information than what is shown on our website. We recommend that you do not rely solely on the information presented and that you always read labels, warnings, and directions before using or consuming a product. Please see our full disclaimer below. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.1956521739130435,
+        "bleu_score": 0.17156894461200053,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Why does this product come up first when doing a search for \"organic food coloring?\" I can find nothing here that says it's organic.",
+            "What are the ingredients in the SUPER RED food coloring?",
+            "Can you dye eggs?",
+            "Has anyone dyed Easter eggs using these?",
+            "Is this a paste or liquid?",
+            "Is the blue, a deep blue?",
+            "Would this product be strong enough to stain someone's teeth when mixed with coffee - obviously this is for a prank.",
+            "Can gel food coloring be used to color water in decorative bottles?",
+            "what size are the bottles?",
+            "Are they gluten free"
+        ],
+        "description": "This set is a great value from one of the greatest names in the baking business - six of Ateco's rich, lively food dye colors are included here, the kind that professionals use to color their own creations. Perfect for coloring icing - contains black, blue, yellow, green, pink & red certified gel food colors. Made in USA. Ateco products are the result of over ninety-eight years and four generations of development. From Easter eggs to colorful cookies, Spectrum's gel food colorings provide a wide range of decorative touches, with gorgeous colors and an enormous range of depth. Each color--black, blue, yellow, green, pink, and red--comes in a soft-sided plastic squeeze bottle that allows you to add a drop of color at a time to frostings and fillings. Paste colors are much more intense than more common liquid colors, and these will last through hundreds of fanciful cookies, providing stunning, professional-looking results. <I>--Jill Lightner</I>",
+        "generated_question": "What is the expiration date on this product?",
+        "gleu_score": 0.058823529411764705,
+        "bleu_score": 0.039281465090051315,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "It says - Uncle Sam Cereal 12X 10 Oz Uncle Sam Cereal - so you are getting 12 boxes each weighing 10 oz.",
+            "how many boxes are you getting?",
+            "is this just one box?"
+        ],
+        "description": "Uncle Sam Cereal Has 10G Fiber Per Serving...That Is 40% Of The Recommended % Daily Value!: (Note: This Product Description Is Informational Only. Always Check The Actual Product Label In Your Possession For The Most Accurate Ingredient Information Before Use. For Any Health Or Dietary Related Matter Always Consult Your Doctor Before Use.) Whole wheat kernels, whole flaxseed, barley malt, niacin, riboflavin (vitamin B2) and thiamine mononitrate (vitamin B1).Contains wheat ingredients. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "Is this product gluten free?",
+        "gleu_score": 0.07142857142857142,
+        "bleu_score": 0.05372849659117709,
+        "meteor_score": 0.996
+    },
+    {
+        "questions": [
+            "Is this just one bottle for $49.95?",
+            "Is there an expiration date shown on the bottle?",
+            "$24.95 for one bottle? It's ten bucks at Harris Teeter.",
+            "Where is the product produced?",
+            "Is there actual garlic in it, or is it extract only?"
+        ],
+        "description": "This is our top selling oil! Add rich, mellow \"I've-been-cooking-for-hours\" taste of roasted garlic to any recipe. It's heavenly stirred into pasta or mashed potatoes. Now made with Extra Virgin Olive Oil for even more intense garlic flavor! Extra virgin olive oil. natural flavors extracted from roasted garlic. Store in a cool, dry place. Oil may get cloudy at cold temperatures. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the expiration date on this product?",
+        "gleu_score": 0.16666666666666666,
+        "bleu_score": 0.09193227152249185,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "where is it made?",
+            "will this work on ice cream cakes?",
+            "What are the ingredients? I am vegetarian.",
+            "Does the gel harden or it stays wet? wanna use it on cake pops.",
+            "is it easy to make it an opaque color by adding food coloring or does it stay a little translucent?",
+            "What is the nutrition information? I'm looking for carbohydrate information.",
+            "Do you think this would work for securing raspberries to buttercream frosting?"
+        ],
+        "description": "Pipe designs and messages or glaze cakes before icing. Use clear or tint with icing color. Try these other uses for piping gel: Stabilized whipped cream (whip pint heavy whipping cream to soft peak stage, add 2 tablespoons piping gel and continue to whip to stiff peaks), glaze fruit and baked goods; crumb coat cakes before covering with rolled fondant. 10 oz. Certified Kosher.",
+        "generated_question": "What is the expiration date for this product?",
+        "gleu_score": 0.20588235294117646,
+        "bleu_score": 0.1561969968460128,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Do you have to use this seasoning with only ground meat, or can it be used as a marinade for the \"traditional style\" jerky?",
+            "ingredients",
+            "What is cure?",
+            "How many pounds of meat does each packet season?"
+        ],
+        "description": "Delight an outdoor cook, large-game hunter, or angler with this savory collection of 3 Original Flavor jerky seasoning packs that makes up to 6 lbs of meat.To use, simply mix the spice and cure packets with lean ground beef, pork, turkey, or other meat, then press into jerky sticks and place on a dehydrator for a great-tasting snack in a matter of hours and at a fraction of the cost of store-bought jerky. Tuck a few packs into hunting bags or camping gear for a thoughtful and tasteful treat fitting for any meat-lover or sportsman. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the expiration date on this product?",
+        "gleu_score": 0.11538461538461539,
+        "bleu_score": 0.06164542728425844,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "What is sodium content?",
+            "After opening, how long will it last in the refrigerator?",
+            "is it gluten free?",
+            "Is this a product of USA or China?"
+        ],
+        "description": "An essential in Chinese cooking. Made from the finest oyster extract, this premium all purpose seasoning sauce enhances the flavor and appearence of any dish. Oyster extractives, sugar, water, monosodium glutamate as flavor enhancer, salt, modified corn starch, wheat flour, caramel color. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.11538461538461539,
+        "bleu_score": 0.07386099955930606,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "I am in Afghanistan. It is possible to ship this product via FedEx for faster delivery? It is winter here and in the States.",
+            "does this product have to be refrigerated?",
+            "Cost over $35, why is there a shipping charge?",
+            "does the cheese come refrigerated?",
+            "Who is igourmet"
+        ],
+        "description": "What could be better than to break out that prized bottle of wine you've been saving, served with some of the world's greatest cheeses? This Four-Cheese Sampler was created with everyone's palate in mind. The cheeses in the sampler are: <ul><li><b>Mountain Gorgonzola</b>: This superb blue comes from Italy's famed Lombardy region. It is mild yet tangy, creamy yet firm, with a pale interior laced with streaks of blue. Delicious served the Italian way (drizzled with honey), it is a real treat for connoisseurs. (7.5 oz)</li><li><b>Beemster Classic Extra Aged Gouda</b>: One of the rarest, most sought after Dutch specially-cured cheeses, aged for 18 months. (7.5 oz)</li><li><b>Gruyere</b>: This robust Swiss classic is a wonderfully versatile raw cow's milk cheese with a fruity, spicy, full flavor, and is aged for a full 10 months. (7.5 oz)</li><li><b>Mature English Cheddar</b>: Our Mature Cheddar is made from the finest milk and aged using expert techniques. Its heritage and time-tested recipe results in a cheddar of unmistakable quality and character. (7.5 oz)</li></ul>Whether entertaining or enjoying an intimate night by the fire, our selection of favorites is sure to be a winner. Please note that any item temporarily out of stock will be substituted with a similar item of equal value. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the expiration date on this item?",
+        "gleu_score": 0.038461538461538464,
+        "bleu_score": 0.03655552228545124,
+        "meteor_score": 0.939622641509434
+    },
+    {
+        "questions": [
+            "I have followed all watering instructions, etc. But the leaves are falling off after arriving one month ago. Is this tree deciduous?",
+            "How long can it stay in shipping box? I purchased for Christmas(12 days from now). I don't want to hurt the tree but need to keep it hidden.",
+            "The pots in the picture look different. What are the dimensions of the pot? I want to make sure it fits on my tray/shelf.",
+            "Is it the real plant or plastic plant?",
+            "Is this the same as the indian ficus religiosa? (Pipal tree)",
+            "Could I use \"Eve's Bonsai Humidity Drip Tray 8\" x 10\" with Pebbles\" with this bonsai or is there a better size?",
+            "Yellow pod/orbs Are they eggs? Are they eggs?"
+        ],
+        "description": " There are over 600 species of Ficus, most of them tropical and evergreen. Ficus produces a unique \"fruit\" which is actually an inverted flower. Ficus is one of the most loved bonsai for many reasons. Ficus are one of the best varieties of Bonsai trees for indoors. They're very easy to take care of and need little attention. In the ficus family, the Golden Gate variety is the best for growing indoors. The attractive gray trunk is thick and sturdy topped by small, dark green oval foliage. It is an excellent tree for beginners, as most species of Ficus are fast growers, tolerant of most any soil and light conditions, make fine indoor bonsai, and perhaps most importantly, are remarkably forgiving of those just learning bonsai watering techniques. Each live plant is shipped with the Phytosanitary Certificate as required by the USDA.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.05263157894736842,
+        "bleu_score": 0.04153509237206396,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Brussels has this tree in its catalog, with guarantee, but at a higher price. Anyone gotten theirs direct from Amazon &amp; did it survive the wherehouse?",
+            "Its really cold in NYC, so I have to keep it indoor. Is that ok? My room is generally kind hot? (any info. you may have before I buy)",
+            "Does this bonsai bloom and how often?",
+            "I bought one, how long before I have to repot it?",
+            "Whats the purpose of thick aluminum wire coming out of and into bottom of planter?",
+            "Can you drink this in a tea? and can i just prune to the style i would like?",
+            "what are the dimensions of the base?",
+            "hello I am thinking of buying this bonsai will it work indoor without sunlight . if not is there any bonsai tree that will",
+            "what size pot is it in?",
+            "size"
+        ],
+        "description": " The Fukien Tea is a tropical evergreen shrub originating from southern China. This plant works particularly well as a mini bonsai, but is also a great houseplant because it appreciates warm temps in the winter months making it a perfect choice for anyone in the city or who does not have the benefits of a yard. Delicate white blossom bloom almost year round and small dark green leaves are shiny with little white dots on the surfaces which are often mistaken for insect infestations. The trunk has wonderful brownish red bark which contrasts beautifully with the dark green of its leaves. Each live plant is shipped with the Phytosanitary Certificate as required by the USDA.",
+        "generated_question": "What is the shelf life of this plant?",
+        "gleu_score": 0.07692307692307693,
+        "bleu_score": 0.039281465090051315,
+        "meteor_score": 0.939622641509434
+    },
+    {
+        "questions": [
+            "where are these from and are they pasteurized? or steamed? are they treated with chemicals?",
+            "Are these almonds treated with PPO?",
+            "What is the unopened shelf life?",
+            "are these almonds nonpareils?",
+            "We need almonds in bulk, somewhere in Tucson, Arizona, other than Costco, about 500 lbs. Can you help?",
+            "Just to confirm: As the seller, you do not know whether these almonds are PPO pasteurized?"
+        ],
+        "description": "Almonds, Shelled Raw. 10 Lbs Bulk. Packed by Its Delish in North Hollywood, CA Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.2692307692307692,
+        "bleu_score": 0.1477219991186121,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "where are these almonds grown?",
+            "Are these almonds organic? The description on Amazon says Organic, but it doesn't seem that the package says it...",
+            "In what country are these almonds grown?",
+            "are these almonds cross contaminated with peanut products?",
+            "are these nuts unpasteurized",
+            "are they raw or pasteurized? I thought from Spain but someone said the website says Italy, which is it?"
+        ],
+        "description": "",
+        "generated_question": "What is the expiration date on this item?",
+        "gleu_score": 0.02857142857142857,
+        "bleu_score": 0.03655552228545124,
+        "meteor_score": 0.939622641509434
+    },
+    {
+        "questions": [
+            "Is this product gluten-free/processed in a gluten-free facility?",
+            "Is this product gluten-free/processed in a gluten-free facility?",
+            "Does this come in a plastic or glass bottle?",
+            "What percentage of vitamins &amp; minerals are in this molasses?",
+            "How long does it take to reverse gray hair back to original color when taking Black Strap Molasses?"
+        ],
+        "description": "Unsulfured blackstrap molasses is more than just a sweetener. Its full of health promoting vitamins and minerals and makes a great nutritional supplement. Taken from the second pressing of the cane, all of the white sugar has been removed from this molasses leaving all the trace elements, especially all of those valuable minerals. Delicious mixed in herbal teas or in hot water with lemon and milk. There are 3 different grades of molasses. The first and second grades are fairly sweet. Blackstrap molasses is the third grade its not very sweet, but it does have the highest vitamin and mineral content of all three grades. 100% certified organic blackstrap molasses. Some foam at the top is normal. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the nutritional content of this product?",
+        "gleu_score": 0.08823529411764706,
+        "bleu_score": 0.03655552228545124,
+        "meteor_score": 0.8737244897959183
+    },
+    {
+        "questions": [
+            "Storing long turm, have a foodsaver. Vacuum &amp; freeze?",
+            "Does the casing need to be removed before eating",
+            "Does it have NITRATES? What are the ingredients listed? Thanks in advance.",
+            "When you received this, how much time was left before it expired? What is the typical expiration time? Thanks",
+            "Does this get shipped with ice packs? Does it need to be refrigerated prior to opening? Thanks in advance!"
+        ],
+        "description": "Authentic dry cured Spanish chorizo. Firm texture, slightly dry, and a mild taste. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.08571428571428572,
+        "bleu_score": 0.13036420666577953,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Do you know what the servings are per bag?",
+            "Is this one bag or 4 bags?",
+            "How long does the cheese last before it expires, opened and un-opened?",
+            "Comes with the connecter thing? I have gold medal 5300 but no tube to connect it to the cheese bag does this cheese bag come with the conector to 5300",
+            "Do you need a Gold Medal dispenser? I have a Gehl's. I want to know if I can only use Gehl's",
+            "Is this jalapeno or aged cheddar?",
+            "Does anybody know if this cheese bag will fit the Gehl nacho machine?"
+        ],
+        "description": "What's better than Nacho's and Cheese at a baseball game...nothing! Make sure to get El Nacho Grande Bag Cheese for all your concession stand needs. Comes in cases of 4 and contains 140 oz. of delicious cheese!",
+        "generated_question": "What is the expiration date on this product?",
+        "gleu_score": 0.043478260869565216,
+        "bleu_score": 0.03303164318013808,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "is this maggi made in china or switzerland",
+            "Is this made in China?",
+            "Size of bottle: Any help here?"
+        ],
+        "description": "Maggi seasoning sauce with salt, spices and pepper. Nestle's famous Jugo Maggi. Brings out the flavor in vegetables, soups, stews and stir-frys 'WATER, SALT, WHEAT GLUTEN, WHEAT, AND LESS THAN 2% OF WHEAT BRAN, SUGAR, ACETIC ACID, ARTIFICIAL FLAVOR, DISODIUM INOSINATE, DISODIUM GUANYLATE, DEXTROSE, CARAMEL COLOR.' Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.07692307692307693,
+        "bleu_score": 0.03655552228545124,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "How spicy is tajin? I can not imagine my kids wanting hot spice on their fruit. They love lime and salt but do not like spicy food yet.",
+            "Is this spice the same for all fruits, veggies, meats, etc? Do you have to buy the spice for each item?",
+            "how much sodium in a teaspoon of the product",
+            "sodium content?",
+            "Is it possible for you to list Tajin Habanero on Amazon? I'd like to order the Hanaero version and I cannot find it on this site. Thanks.",
+            "how much sodium?",
+            "Wher can i buy tajin",
+            "Popcorn",
+            "Does anyone know what the shelf life is for Tajin? I want to buy but don't know what the expiration date is.",
+            "do it come in lequid"
+        ],
+        "description": "TAJIN SSNNG FRUIT CHILI PWDR, 5 OZ Chile Peppers, Salt, Dehydrated Lime Juice, Silicon Dioxide (To Prevent Caking) Actual product packaging and materials may contain more and different information. We recommend that you do not rely solely on the information presented and that you always read labels, warnings, and directions before using or consuming a product. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the expiration date on this product?",
+        "gleu_score": 0.08536585365853659,
+        "bleu_score": 0.1596628935269467,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Is it made from GMO corn?",
+            "Can I use instant masa to thicken chili or do I need to use \"regular\" masa?",
+            "is it pre-cooked Masa?",
+            "can you use this to make a gluten free pizza crust?",
+            "Is this product gluten free?",
+            "gmo or NON-gmo?"
+        ],
+        "description": "This corn flour is ideal for making your favorite foods You can make the dough for tortillas, enchiladas, pupusas, sopes, and many more The Maseca corn flour Masa for tortillas is made from ground, dried corn Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "Is this product gluten free?",
+        "gleu_score": 1.0,
+        "bleu_score": 1.0,
+        "meteor_score": 0.996
+    },
+    {
+        "questions": [
+            "Is this 12 jars of 7.9 oz for $8.19 or one jar?",
+            "Title says \"12 x 7.9oz\". Does that mean 12 jars of 7.9oz or is that a misprint?",
+            "Is it gluten free"
+        ],
+        "description": "Enjoy Knorr Boullion, Granulated, Chicken Flavored. Granulated Mix Blending Flavors Of Chicken, Onion, Parsley, And SpicesVersatile Bouillon Enhances Soups, Stews, Sauces, GraviesAlso Great For Adding Flavor When Cooking Pasta, Rice, And VegetablesOne Jar Makes 45 Cups Bouillon (Note: Description is informational only. Please refer to ingredients label on product prior to use and address any health questions to your Health Professional prior to use. 'SALT, SUGAR, CORN STARCH, MONOSODIUM GLUTAMATE, BEEF FAT*, HYDROLYZED CORN PROTEIN, POWDERED COOKED CHICKEN*, YEAST EXTRACT (BARLEY), CHICKEN FAT*, NATURAL FLAVOR, MALTODEXTRIN, SILICON DIOXIDE (PREVENTS CAKING), DEHYDRATED PARSLEY, DISODIUM INOSINATE, CITRIC ACID, YELLOW 5, YELLOW 6, ANNATTO (COLOR).' Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the expiration date on this product?",
+        "gleu_score": 0.023809523809523808,
+        "bleu_score": 0.03303164318013808,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "What is the shelf life of luster dust?",
+            "How do you open the container? I haven't gotten mine open yet!",
+            "is this edible",
+            "can I make silver fondant with this"
+        ],
+        "description": "Luster Dust finishes your project with a bright sheen and glittery metallic look. Luster Dust contains only ingredients that are non-toxic and are ideal for use with gum paste or rolled fondant. Intended for use in the dry form, Luster Dust can also be mixed with oil-based flavorings or alcohol for painting and highlighting. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.6923076923076923,
+        "bleu_score": 0.7071067811865475,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Hi, What is the difference with this product: Nielsen-Massey 32 oz. Madagascar Bourbon Pure Vanilla Extract. I would like to use in cakes and cookies",
+            "Does this have an expiration date? If yes, what date does your bottle have? Thanks!",
+            "Is there actual alcohol in the bourbon vanilla bean paste?",
+            "Why did they opt to put the larger size in plastic instead of glass? I really prefer glass as I worry about chemicals leached via plastic.",
+            "Is this in a glass or plastic bottle?",
+            "The first ingredients in this product are sugar and water -- this is basically a watered-down and sweetened vanilla extract. Why not buy extract?",
+            "I'm assuming that this is a squeeze bottle--please advise.",
+            "Is this product gluten free",
+            "how is this measured as opposed to extract?",
+            "For making Kahlua, what is the difference in using the vanilla bean versus the paste?"
+        ],
+        "description": "At Nielsen-Massey Vanillas, we've been crafting the worlds finest pure and natural vanilla products since 1907. Our focus on quality begins by sourcing beans from our network of trusted suppliers in the worlds best regions for vanilla growing. Our team closely examines each bean to ensure it meets our exacting quality standards, often rejecting more than we purchase. We then use our proprietary cold extraction process which preserves more than 300 distinctive flavor compounds. </br> Application Inspiration: </br> Madagascar Bourbon Pure Vanilla Bean Paste can be used as a direct replacement for extract when you want the distinctive look of vanilla bean specks. Toss it with strawberries and serve with whipped cream for a delicious, fruity dessert. </br>  Sweet ideas: crme anglaise, crme brle, custards, puddings, gelato, ice cream, sauces, honey-vanilla spread</br>  Savory ideas: glazes for poultry, seafood and pork</br>  Beverage ideas: milkshakes, coffee flavoring</br>  Other ideas: add to oatmeal and yogurt</br> Sugar, Water, Vanilla Extract, Vanilla Beans, Gum Tragacanth (a natural thickener) Shelf life: 3 years Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.07692307692307693,
+        "bleu_score": 0.1561969968460128,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Is it fresh?",
+            "Were any rabbits harmed in the production of this product? If so, please describe in detail.",
+            "Not looking for the whole rabbit, do you sell just the feet?",
+            "Where can I buy just the head? It doesn't seem to be included...",
+            "For my pet: I was wondering, is there anyone who purchased this for their pet?",
+            "This is just disgusting: Why you'd want to eat a bunny corpse is beyond me.",
+            "Are these good for vegetarians?",
+            "Can these by motorized for remote control for the purpose of training race dogs?",
+            "Why Does It Cost So Much Money?",
+            "So gross: Who would buy meat online?"
+        ],
+        "description": "Rabbit meat is lightly flavored and has a nutty aftertaste that is unique to this animal. It is a low fat meat, low in cholesterol, and a nutritious source of proteins. Excellent with a mustard sauce or stewed slowly with onions. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "Is this product gluten free?",
+        "gleu_score": 0.07142857142857142,
+        "bleu_score": 0.06389431042462725,
+        "meteor_score": 0.996
+    },
+    {
+        "questions": [
+            "What's the difference with royal jelly and bee pollen? which is better?",
+            "is it good for skin",
+            "Does it need to be refrigerator? I heard royal jelly needs keep in the low temperture",
+            "Do you eat it or put it on your skin?",
+            "does it work on cellulite",
+            "Can you use it in teas?",
+            "where in orange county california health store can i buy royal jelly",
+            "The container of the product was broken before I opened it. What should I do now?",
+            "What is the expiration date?",
+            "does it contain ginseng and eleuthero"
+        ],
+        "description": "YS Royal Jelly/Honey Bee - Royal Jelly In Honey Ultra Strength, 21 oz gel",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.23076923076923078,
+        "bleu_score": 0.1477219991186121,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "from what state/country is the honey harvested?",
+            "Why it is to thick? Is everyone's like this? I basically need to put it in microwave every couple of days to make it more like a syrup than butter!",
+            "Why is this honey so much lighter in color than other raw honeys?",
+            "Is this good for applying to face for softer and acne free skin?",
+            "Is it easy to scoop the honey out with a teaspoon, or do you have to heat it first? Mostly want to use a small amount for my morning tea. Thanks",
+            "Is this 32 ounce size raw honey sold in a glass or plastic jar?",
+            "can children under ten eat raw honey",
+            "I used to buy \"Really Raw Honey\" brand and loved their taste. If anyone have tried both, would you recommend this over Really Raw Honey? Thanks.",
+            "What is the difference between standard packaging and frustration free?",
+            "can you use it on your face"
+        ],
+        "description": "YS Organic Bee Farms CERTIFIED ORGANIC RAW HONEY 100% CERTIFIED ORGANIC HONEY Raw, Unprocessed, Unpasteurized - Kosher 32oz(pack of 1) Do not feed honey to infants under one year of age. Certified Organic Honey To soften, place container in warm water and stir, especially during the cold season. Enjoy the full health benefits that nature provides. All purchases must be made by an individual 18 years of age or older and living in the United States. If ordering international please call the store for further assistance Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.17647058823529413,
+        "bleu_score": 0.1561969968460128,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Is the papaya extract in this product also non gmo and organic?",
+            "would this be probiotic?",
+            "Can I use this pollen to pollinate my flowering fruit trees?",
+            "Does it smell good?",
+            "Is papaya used in this bee pollen powder organic?"
+        ],
+        "description": "Naturally Fermented Bee Pollen 10.0 oz. Powder<br> <b>Suggested Use</b> As a dietary supplement As a dietary supplement, take 1-2 teaspoonfuls with your favorite drink. - Or as directed by your healthcare professional. <b>Other Ingredients: </b>Papaya solids, stevia, citric acid. <b>Warnings: </b>Keep out of reach of children. As with all dietary supplements, consult your healthcare professional before use. See product label for more information. Bee pollen may cause an allergic reaction in some sensitive people.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.047619047619047616,
+        "bleu_score": 0.02915032279375143,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "I am going to make canned blueberry pie filling using deep water canning. how much clear gel do you use per quart of blueberry pie filling?",
+            "how do you make raspberry jam with this",
+            "I opened a bag of clear jel (bought from a different source) and it smelled like perfumed soap. Is that normal?",
+            "How \"clear\" is Clear Jel? is there a picture showing the mixed product?",
+            "Can I use Clear Jel to thicken homemade blueberry syrup before canning instead of using regular cornstarch after opening the jar?",
+            "How many cups of this product (on average) does this 1 lb. bag hold?",
+            "Is Clear Gel the same as gelatin?",
+            "can i use this product to make a clear gel base for fresh fruit to be added to?",
+            "for instant puddings do you use regular or instant clear jel",
+            "Can it replace agar"
+        ],
+        "description": "Regular CLEAR JEL is the only thickener the USDA recommends for use in home-canning of fruit pie fillings. It does not break down and become thin when used in home-canned pie fillings. Manufacturer recommends CLEAR JEL as an equal replacement for cornstarch in uncanned pie fillings baked at home. Each bag contains 1lb of CLEAR JEL which is 3 - 3 1/2 cups. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.06521739130434782,
+        "bleu_score": 0.07386099955930606,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "What is the difference between \"Malted Milk Powder\" and \"Barley Malt Powder?\" (I'll use the malt for flavoring milk and ice cream.)",
+            "is it sugar free",
+            "Is this made from 6 row barley",
+            "What is the volume or the specific gravity of this malt powder? That is to say, what size jar will hold the pound of it?",
+            "Is this the malt for use in malted milk shakes?",
+            "I assume this is not a certified organic product, but is it basically organic?",
+            "Is it gluten free?",
+            "can you use this for brewing beer",
+            "Can you use this for brewing beer",
+            "Can you use this for brewing beer"
+        ],
+        "description": "(100% barley) Barley malt powder is sometimes called flour as it is made from grain that is fermented, then dried and ground. The process turns the grain's starch into sugar. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.09574468085106383,
+        "bleu_score": 0.17286039232097053,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "is the sea weed from the Pacific; Japan or west coast of North America?",
+            "Is it gluten free",
+            "How much liquid will this thicken?",
+            "What is the expiration date on the product?",
+            "What is the nutritional info?",
+            "Is the solid transparent after heating and cooling?"
+        ],
+        "description": "Agar is a red algae and a unique vegetable source protein.  Agar has been used in the Far East for centuries and is referred to as Agar-Agar.  Can be used too make a gelatin with water or fruit juice. Agar-Agar Powder Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.2692307692307692,
+        "bleu_score": 0.16348126556655487,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Hi. Will Clear Jel change the flavor of what I add it to, maybe give it a starchy taste? Or is it flavorless? Thanks.",
+            "Can i use this to stabilize whipped cream ?",
+            "I don't know whether to use instant since my apple pie recipe calls for me to cook the apples before adding to the crust. My pies are always soupy!",
+            "Is this methylcellulose?",
+            "difference between instant and regular clear jel",
+            "I am in Guatemala and cannot find instant pudding mix. I can make my own no cook pudding mix with this gelatin, BUT can I use cornstarch?",
+            "Does this contain carbohydrates?",
+            "I am in Guatemala and cannot find instant pudding mix. I can make my own no cook pudding mix with this gelatin, is Knox gelatin the same?",
+            "Does this work the same way as knox",
+            "Can I use this to make my own hand sanitizer with isopropyl alcohol?"
+        ],
+        "description": "Instant Clearjel is a modified corn starch that is popular with pie bakers but is generally not available in stores. Do not use the instant version for canning of pie fillings. It is designed for heating only the one time which is when the pie is actually baked. It is recommended that INSTANT CLEARJEL be thoroughly blended with sugar or other dry ingredients be-fore it is added to liquids in order to prevent lumping and to insure smoothness. The presence of sugar acts to control the rate of the hydration of the starch. Each bag contains 1lb of INSTANT CLEARJEL. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.07692307692307693,
+        "bleu_score": 0.039281465090051315,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Can anyone comment on the taste of lobster vs fish base? I've the fish base and absolutely love it. Wondering if I need both. thank you.",
+            "What are the ingredients? Thanks much.",
+            "Has anyone made lobster bisque with this? How was it, if so? Are there lobster pieces in the base?",
+            "What is the expiration date?",
+            "what is country origin?",
+            "what is country origin?",
+            "how many ounces are in this jar?"
+        ],
+        "description": "Better than Bouillon Concentrated Stocks are made with Roasted Chicken, Roasted Beef, Roasted Garlic or Seasoned Vegetables. This gives them a richer, more robust flavor than ordinary bouillons or soup bases. Our chicken tastes like chicken because it IS chicken; our beef tastes like beef because it IS beef. Better than Bouillon Concentrated Stocks are fat free and have 1/3 less salt than ordinary bouillons. Better Than Bouillon Lobster Base makes an incredible Lobster Bisque in case you want to show off your gourmet cooking skills to your friends and family. Cooked lobster, salt, maltodextrin, hydrolyzed soy protein, dried onion and garlic, potato flour, corn oil, natural flavors, xanthan gum, disodium inosinate and guanylate, soy lecithin, oleoresin of paprika. Basic Stock Directions: Dissolve 1 teaspoon Lobster Base in 8 oz boiling water. For each quart of stock needed, use 1 1/2 tablespoons Lobster Base. Refrigerate after opening Actual product packaging and materials may contain more and different information than what is shown on our website. We recommend that you do not rely solely on the information presented and that you always read labels, warnings, and directions before using or consuming a product. Please see our full disclaimer below. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "Is this product gluten free?",
+        "gleu_score": 0.045454545454545456,
+        "bleu_score": 0.05372849659117709,
+        "meteor_score": 0.996
+    },
+    {
+        "questions": [
+            "What are the ingredients?",
+            "Can you put this on popcorn?",
+            "Approximately how many cups is in this 1lb bag? Thanks!",
+            "Nutritional Info",
+            "What are the ingredients?",
+            "how to make cheese sauce",
+            "I want to carry this to another country. It needs to be sealed. I can't tell if this is a sealed package or not by the picture.",
+            "Tangy, Sour taste: Doesn't anyone else taste that?",
+            "I've tried various powdered cheeses most are very salty. I'm not a salt eater at all. Is this salty?",
+            "Is this item gluten free?"
+        ],
+        "description": "Cheddar Cheese powder, 1 lb. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.07692307692307693,
+        "bleu_score": 0.039281465090051315,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Is this powdered salt or fine granuals?I am looking for powder for peanuts and cashews in a jar.",
+            "does it contain msg",
+            "is the salt white or is it colored yellow?",
+            "The header reads \"16oz.\" but the photo reads \"24oz.\",. What one is being shipped?"
+        ],
+        "description": " Popcorn seasoning can refer to a variety of seasonings that are used to add flavor to popcorn. In the United States, popcorn seasoning is mass-produced by several companies for commercial and consumer use. Popcorn seasonings may be used to enhance the flavor of popcorn, and some are used to add a buttery flavor to popcorn.Significant amounts are often used to ensure the adequate flavoring of popcorn, due to popcorn&#39;s low density.It is also sometimes utilized to add coloring to popcorn. Some popcorn seasoning may contain monosodium glutamate.Some specialty products exist in unique flavors, such as chocolate and bubble gum. Some popcorn seasoning products may be referred to as popcorn salt. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.1,
+        "bleu_score": 0.06164542728425844,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Do you have to mix anything in to vape with this?",
+            "can i put a drop or two in my 50/50 watermelon juice to sweeten it up a bit?",
+            "Can you vape with this?",
+            "How do you stretch it out so it's not so strong?",
+            "Does it have nicotine in it?",
+            "Is this an oil based or water based flavor?",
+            "Does it mix with water to flavor my hard cider?",
+            "Is this tabacco free?",
+            "Can I use this for vaporizer liquids?",
+            "can i use this for my home made chapstick? or is it too strong?"
+        ],
+        "description": "Watermelon Flavor, 1 Dram (3.7 ml) by LorAnn Oils.These super-strength flavors are 3 to 4 times stronger than grocery store extracts - a little goes a long way! Perfect for use in hard candy, candy centers, fondants, fudges, and other baked goods. This flavor is appropriate for chocolates and chocolate coatings. Gluten Free and certified Kosher Pareve by Star-K. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.04,
+        "bleu_score": 0.03303164318013808,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "I LOVE Frontier products and am interested in purchasing the Yeast for baking purposes. Is the Frontier Nutritional Yeast Flakes for baking?",
+            "Is this product Gluten Free?",
+            "The product is currently $16.50, and is listed as a 1 lb product (16 oz), which would be $1.03/oz, not $0.76. Why is the stated cost per ounce so low?",
+            "Is this organic? Do you offer this product organic?",
+            "How long does this yeast last?",
+            "Does this yeast contain Vitamin B-12? How much?",
+            "Is it in a BPA-free container?",
+            "Does anyone know the country of origin? Thanks in advance."
+        ],
+        "description": "This is a primary nutritional yeast from pure strains of Saccharomyces cerevisiae, grown on mixtures of cane and beet molasses. Use in place of cheese in rice, pasta and bean dishes and salads. Also goes great on popcorn and in snack mixes. This product is labelled to United States standards and may differ from similar products sold elsewhere in its ingredients, labeling and allergen warnings Inactive yeast. Quality Notes: Due to the naturally occurring color variation of the molasses culture used to grow this yeast, some color variation may be present in the finished product. Actual product packaging and materials may contain more and different information than what is shown on our website. We recommend that you do not rely solely on the information presented and that you always read labels, warnings, and directions before using or consuming a product. Please see our full disclaimer below. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the expiration date on this product?",
+        "gleu_score": 0.038461538461538464,
+        "bleu_score": 0.06500593260343691,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "will it stick to air popped (no oil) popcorn. I use the Presto Poplite hot air popper.",
+            "Are the ingredients for this just salt, or is there anything else in it?",
+            "I've used a Stir-Crazy type popper with oil for years. Is there anyone out there using this method who mixes the salt in w/ the oil prior to popping?"
+        ],
+        "description": "Diamond Crystal Popcorn & Nut Salt features flake-type crystals that cling evenly, from one kernel to the next. Harvested through a proprietary process, these crystals offer much more surface area than ordinary granulated salt. The result is a popcorn salt with ultra-fine texture, exceptional adherence and pure flavor that delivers one great performance after another. Jar features an easy to pour/sprinkle top to accommodate those that want a little or a lot. Net Weight: 24 oz. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.06,
+        "bleu_score": 0.017267606045625942,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Ingredients: Would someone please type what it says?",
+            "Can you please list all of the ingredients? Thank you",
+            "Is there any dairy in these?"
+        ],
+        "description": "Carob Chips, unsweetened, 1 lb. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.058823529411764705,
+        "bleu_score": 0.03303164318013808,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Interested in buying but reviewer has negative comments about expiration. How do I make sure it will be fresh or do you recommend buying somewhere els",
+            "How is this yeast in a bread machine?",
+            "Do people like this brand better than the two other store brands?",
+            "does the yeast work in bread machines ?",
+            "what is the difference between the red and the gold/",
+            "MY eye are getting old. I'm a amature at bread making didn't see any water tempature on bag. Any recomrndiations?",
+            "Page says \"Price: $6.89 ($6.89 / ounce)\", picture shows 1lb (16 oz) bag. Which is correct? Thanks in advance.",
+            "What water temp should I use with SAF?",
+            "Is this the same as \"rapid rise yeast\"? I want to use it in no-knead recipes. Thank you!",
+            "Is this yeast gluten free?"
+        ],
+        "description": "SAF is easy to use (no proofing or pre-dissolving); it's fast-acting and long-lasting, continuing to work for hours longer than \"rapid\" yeast. It's absolutely reliable.<br><br>Store in an airtight container: for 6 months at room temperature or in the fridge; or for a year or longer in your freezer. This product is labelled to United States standards and may differ from similar products sold elsewhere in its ingredients, labeling and allergen warnings Yeast, sorbitan monostearate, ascorbic acid Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.08823529411764706,
+        "bleu_score": 0.06985342056580097,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "100% egg whites or are there additional ingredients?",
+            "what has been your experience with expiration dates, ie, how far out is the expiration date from when you received the package?12 months?24 months?etc",
+            "How many egg whites does this contain?",
+            "Is this product organic?",
+            "How do mix this wHat are the measurements",
+            "Is there any salt added in these egg whites?",
+            "what is the preparation like? I would like to use them for camping, are they easily mixed with water and can be cooked in a small pot?",
+            "how much protien and sodium would be in a table spoon full? ty ;]",
+            "Is it fat free?",
+            "Is the Avidin in this product deactivated?"
+        ],
+        "description": "",
+        "generated_question": "What is the expiration date on this item?",
+        "gleu_score": 0.1111111111111111,
+        "bleu_score": 0.3655552228545123,
+        "meteor_score": 0.939622641509434
+    },
+    {
+        "questions": [
+            "How many ounces is each bar?",
+            "What is the sweetener?",
+            "How many calories to a bar?",
+            "I loved the taste of the dark chocolate &amp; cocoa nibs/ What is the % of natural cocoa for health benefits?"
+        ],
+        "description": "Net Carbs 2gTotal Carbs: 19gNon-Impact Carbs: -17gThe -17 non-impact carbs are derived from maltitol (a sugar alcohol) and dietary fiber. Unsweetened Chocolate, Maltitol (from wheat but gluten free), Cocoa Butter, Cream (Milk), Cocoa Mass, Soy Lecithin, Natural Vanilla, may contain traces of various nuts. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "How many calories per packet?",
+        "gleu_score": 0.3333333333333333,
+        "bleu_score": 0.26591479484724945,
+        "meteor_score": 0.920138888888889
+    },
+    {
+        "questions": [
+            "What is the name of the sugar substitute used in this product?",
+            "howmuch sugar in each bar",
+            "How many carbs in each bar?",
+            "Amberlyn choclate - Sugar Free how many pieces are there on a box"
+        ],
+        "description": "Net Carbs 3 g Total Carbs: 18 g Non-Impact Carbs: -15 gThe -15 non-impact carbs are derived from Maltitol (a sugar alcohol) and dietary fiber. A Milk Chocolate lover's dream. Includes a delightful assortment of No Sugar Added Milk Chocolate bars. Maltitol (from wheat but gluten free), Cocoa Butter, Cream (Milk), Cocoa Mass, Soy Lecithin, Vanilla, may contain traces of various nuts. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "How many calories per packet?",
+        "gleu_score": 0.16666666666666666,
+        "bleu_score": 0.11362193664674995,
+        "meteor_score": 0.920138888888889
+    },
+    {
+        "questions": [
+            "is this bouillon cubes ?",
+            "what are the ingredients?",
+            "Do you sell in a smaller quanity, this seems a lot for an average home use",
+            "on the minor's beef base or au jus concentrate, how long can they be kept, I will just use this in my home for some smoking I am trying",
+            "Is Minor's beef base better than BV Beefer Upper?",
+            "If you order several different bases, do they adjust the shipping charges?",
+            "Is this shipped frozen? When I worked in the industry, it always came frozen, but that was on large trucks.",
+            "does it contain corn or wheat products or sweeteners?"
+        ],
+        "description": "Seasoned paste concentrate made from freshly roasted lean primal cuts of USDA inspected beef which delivers the savory flavor of freshly roasted beef and natural beef juices. ROASTED BEEF AND CONCENTRATED BEEF STOCK, SALT, HYDROLYZED SOY, CORN AND WHEAT PROTEINS, MONOSODIUM GLUTAMATE, PALM OIL, SUGAR, CARAMEL COLOR, MALTODEXTRIN, NATURAL FLAVORS, 2% OR LESS OF CORN OIL, POTATO STARCH, DISODIUM INOSINATE/DISODIUM GUANYLATE, MODIFIED CORNSTARCH, LACTIC ACID. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the expiration date on this product?",
+        "gleu_score": 0.07692307692307693,
+        "bleu_score": 0.0346657712709552,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "On the picture for this oil the labelsays grilling oil, yet the 1/2 gal. size picture says just rice bran oil. Which is this?",
+            "How many ounces is the $16.00 glass bottle?",
+            "Where was the rice from which this oil was obtained grown?",
+            "is this brand of rice oil cold pressed?",
+            "Is rice bran oil an emulsifying conditioner? I need something that will act as one for my home made lotion..."
+        ],
+        "description": " <b>ALL NATURAL RICE BRAN OIL - 100% CALIFORNIA GROWN RICE</b>  Made from Non GMO Rice grown in California Rich in Vitamin E and Gamma-Oryzanol Heart Healthy Tophe rice bran oil is all you need. <b>Our raving fans love Tophe Rice Bran Oil</b> HEALTHY FOR THE HEART - Research has shown Rice Bran oil to lower bad cholesterol (LDLs) and increase good cholesterol (HDLs).<br />The Japanese refer to this oil as Heart Oil because of its heart-healthy properties. GREAT FOR COOKING - Rice bran oil has a naturally high smoking point of 490 degrees. Light neutral flavor and aroma makes it great for flash frying, sauteing, and making dressing due to its ability to emulsify easily. Make you next tempura dish at home! GREAT FOR HORSES AND DOGS - Provide your pet with the care it needs to look great! Can be used for older horses to maintain weight, provide a shiny coat, and strong hooves. Use for your dog as a supplement to help keep a great looking coat. HEALTHY PHYSICAL COMPOSITION - No cholesterol or trans-fatty acids, and is naturally low in saturated fatty acids, GMO Free and all-natural. <b>Add To Cart and Buy now!</b> Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the expiration date on this product?",
+        "gleu_score": 0.11538461538461539,
+        "bleu_score": 0.06500593260343691,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "How many cups of cream of tartar are in 1 lb? I need 4 cups to make many batches of play dough for a party favor.",
+            "Does this have cornstarch in it?",
+            "How long is the shelf life of this product? Will it keep longer if stored in the refrigerator or freezer?",
+            "Is there any aluminum in this cream of tartar?",
+            "Is this legitimately Potassium bitartrate? I am not getting the solubility (in water) expected at 99 degrees C."
+        ],
+        "description": "Cream Tartar Powder. It is a high quality healthy product. This product is good for health. This product is manufactured in united states. Potassium bitartrate Cream of tartar powder (potassium hydrogen tartrate) or tartaric acid, is an effervescent acid obtained as a by-product of wine making. The acidic powder is used for culinary and other household purposes, among them: stabilizing egg whites and increasing their heat tolerance, preventing sugar syrups from crystallizing and reducing discoloration of boiled vegetables. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.2972972972972973,
+        "bleu_score": 0.7420884818558928,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "irradiated",
+            "How long opened before ungrinded peppercorns loses flavor?",
+            "Is it bad to store in a ziploc bag?",
+            "was this made in a gluten free facility?",
+            "is it tellicherry?",
+            "What is the origin?",
+            "where is this peppercorn from",
+            "In the product description, you say if you had to pick one flavor, the master spice would be a wise choice. What is \"The master spice\"?",
+            "is the pouch re-sealable, ziplock, etc?",
+            "I'm not familiar with whole peppercorns. Do I need to ground them before eating, or can I eat them whole?"
+        ],
+        "description": "If we had to select just one spice to flavor our food, pepper, the master spice ,would be a wise choice. Storage: Glass jars are the ideal storage container. Air, heat, and light are the enemies of fresh spices, so an airtight container in a cool, dark place like a cabinet is ideal. You can also add to the life of your spices by storing them in the refrigerator. This product is labelled to United States standards and may differ from similar products sold elsewhere in its ingredients, labeling and allergen warnings Peppercorn, Black Tellicherry Information about this product is provided for informational purposes and is not meant to substitute for the advice provided by your own physician or other medical professional. You should not use the information contained herein for diagnosing or treating a health problem or disease, or prescribing any medication. You should read carefully all product packaging. If you have or suspect that you have a medical problem, promptly contact your health care provider. Information and statements regarding dietary supplements have not been evaluated by the Food and Drug Administration and are not intended to diagnose, treat, cure, or prevent any disease. All discounts are taken from suggested retail prices. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.23076923076923078,
+        "bleu_score": 0.1477219991186121,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "What is the difference between this product and the one labeled \"granules?\"",
+            "Can I use this with my Keurig? (Assuming I use a reusable coffee filter)",
+            "Are these granules?",
+            "Do I need to refrigerate the bag after opening?",
+            "How long would one bag last with daily use?",
+            "Is it caffeine free?",
+            "Where is this chicory grown and processed? Does it have any additives?",
+            "Where is this grown?",
+            "I want to use this for its prebiotic soluble fiber benefit. Does anyone use it for that purpose? If so what quantity and probably not strained? Thanks"
+        ],
+        "description": "Chicory root is a hardy perennial best known for its association with coffee.  it produces a more roasted flavor without caffeine. Chicory root can be made as tea or added to a hot beverage for a coffee-like flavor. Frontier organic bulk roasted chicory root granules are kosher certified and non-irradiated. Roasting chicory provides a bittersweet taste that resembles but, coffee lovers will agree, does not duplicate that of coffee. Some coffees offer blends with up to 30 percent chicory, which cuts down on the caffeine content of the blend. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.16666666666666666,
+        "bleu_score": 0.13036420666577953,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Is this a coarse sugar that could be used to keep a cake board from sticking to the tier below?",
+            "Is it pure sugar, or does it include other substances?",
+            "Are these in crystal or flake form?",
+            "I am looking for a product to give a glistening effect around a \"FROZEN \" themed edible image, would this work sprinkled onto buttercream frosting?",
+            "Would this be too coarse for fondant snowflakes?",
+            "are there any peanut or tree nut allergy warnings on the packages?",
+            "Is this what I need to top pastries and it won't dissolve in the heat of the oven? How is it different from sanding sugar?",
+            "is this product manufactured in a nut free facility?"
+        ],
+        "description": "Sprinkle on sparkling sugar for cakes, candies, cupcakes, and more.",
+        "generated_question": "What is the expiration date for this product?",
+        "gleu_score": 0.07692307692307693,
+        "bleu_score": 0.039281465090051315,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Is this USA grown or an import from somewhere? Is it from China?",
+            "I'm looking for glutinous flour and when I search this flour comes up. Is this flour the same thing? And is it GMO? Thanks",
+            "Is it white rice or brown rice",
+            "is this organic?"
+        ],
+        "description": "This Superfine Sweet Rice Flour is milled from short grain rice. It is a superior thickening agent especially good for recipes to be refrigerated or frozen as it inhibits liquid separation. Also, the flour helps retain moisture by slowing the breakdown of starches. This flour is found in many gluten-free bakery recipes. This product is labelled to United States standards and may differ from similar products sold elsewhere in its ingredients, labeling and allergen warnings. Sweet white rice flour Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.07692307692307693,
+        "bleu_score": 0.03655552228545124,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Is the rice GMO?",
+            "Are there added preservatives?",
+            "Can I use this flour to make pasta with my pasta machine?",
+            "Is this processed in a tree nut and peanut free facility?",
+            "If a GF recipe calls for brown (or white) rice flour, can I substitute Authentic Foods GF Brown Rice Flour Superfine? Will it make any difference?",
+            "where is the rice grown?",
+            "How many cups can you get from this size bag?"
+        ],
+        "description": "Chef's, restaurants, food service owners - are you looking for a gluten free brown rice flour that is fresh, superfine, and comes in bulk? TThe Authentic Foods Superfine Brown Rice Flour is a gluten free flour made from the highest quality California medium grain rice and has the absolute best grain size for gluten free baking. Besides not having the grittiness associated with most rice flours, the Authentic Foods Superfine Brown Rice Flour contains more vitamins, protein and fiber than many flours such as white rice flour. It contains approximately 7% protein, 70% carbohydrates, 5% dietary fiber and 2% fat. It is often used in gluten free baking as a substitute for wheat flour when combined with other gluten free flours. The 50 lb bulk size box is perfect for restaurants, food service, chef's, camps, schools, and just about anyone serving a large crowd. Flour is gluten free, dairy free, nut free, corn free, and soy free. It is certified kosher by Rabbi Yehuda Buck span. Brown rice flour For extended shelf life, store Superfine Brown Rice Flour in refrigerator or freezer. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.11538461538461539,
+        "bleu_score": 0.05062667121584364,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Is a USA product?",
+            "Is sorghum really millet?",
+            "Is this the 3lb bag or 25lb? Title says 3, but the description and the price per oz calculation are based on 25#.",
+            "Is this product nuts free?",
+            "Is this flour less starch not to break down in as much sugar",
+            "is this flour organic?"
+        ],
+        "description": "The Authentic Foods Superfine Sorghum Flour is a must have for any gluten free baker! The Authentic Foods White Sorghum Flour is derived from a cereal grain crop and is 100% gluten-free. It can be used by itself or mixed with other gluten-free flours to make delicious breads, pizza dough, cakes, pastries, etc. Nutritionally, sorghum is a better source of protein and fiber than rice flour. The White Sorghum Flour is high in insoluble fiber with relatively small amounts of soluble fiber. The protein and starch components of grain sorghum are more slowly digested than other cereals and slow the rate of digestion for products made from White Sorghum. Slower rates of digestibility are beneficial for diabetics. Flour is gluten free, dairy free, nut free, corn free, and soy free. It is certified kosher by Rabbi Yehuda Buck span White sorghum. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "Is this product gluten free?",
+        "gleu_score": 0.5,
+        "bleu_score": 0.28574404296988,
+        "meteor_score": 0.996
+    },
+    {
+        "questions": [
+            "Does this sauce contain garlic?",
+            "Is this sauce gluten free?",
+            "What is the list of ingredients?"
+        ],
+        "description": "Mae ploy - sweet chili sauce 10 fl. oz.for dipping is delicious with grilled chicken and deep fried foods. The taste is mildly spicy and sweet. It's pinkish-red color and confetti-like specks of chili flakes make it a visually appealing condiment. It adds zip to grilled meats and vegetables as well as fried foods like tempurah, fish cakes, squid, vegetables and spring rolls. Like ketchup, sweet chili sauce has inspired numerous uses. Don't let convention bind you, be adventurous and explore the tasty delights of what sweet chili sauce has to offer. Try using sweet Thai chili sauce in your next meatloaf instead of whatever tomato-based stuff you normally use. Sugar, water, pickled red chilli, vinegar, garlic, salt, stabilizer: Xanthan gum (E415). Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.2692307692307692,
+        "bleu_score": 0.1561969968460128,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "I had milka last month in Frankfurt, bought more on Amazon and not nearly as good. Not rich or creamy are there different types of regular plain??",
+            "Why is this called \"milk chocolate _confection_\"? Is it the same formulation as in Europe?",
+            "Where is the chocolate made (US or Europe)?",
+            "What are the ingredients in this chocolate?"
+        ],
+        "description": "Delicious alpine milk chocolate imported from Europe. Store in a cool and dry place. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.11538461538461539,
+        "bleu_score": 0.07386099955930606,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Can you put this into a cup of brewed coffee, or does the chicory itself need to be prepared first?",
+            "is this naturally 100% caffeine free",
+            "Can you use this in a \"pour over\" coffee cone type of brewer? Like a one cup Melitta?",
+            "Is this product irradiated? Proof?",
+            "Is this in instant form or you have to discard coffee grounds after brewing?",
+            "Is this acid free or low acid?",
+            "Is it gluten-free?",
+            "is this in powder form or is in granules? we are looking for small granules not ground fine. Thanks"
+        ],
+        "description": "Frontier Chicory Root is a hardy perennial best known for its association with coffee.  it produces a more roasted flavor, without caffeine. Chicory root can be made as tea or added to a hot beverage for a coffee-like flavor.\nRoasting chicory provides a bittersweet taste that resembles but, coffee lovers will agree, does not duplicate that of coffee. Some coffees offer blends with up to 30 percent chicory, which cuts down on the caffeine content of the blend.\nDIRECTIONS: To use as a tea, pour 1 cup boiling water over 1 teaspoon herb, cover and steep 3 to 5 minutes. To use as a tea, pour 1 cup boiling water over 1 tsp of herb, cover and steep 3-5 minutes. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.07692307692307693,
+        "bleu_score": 0.039281465090051315,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "this tea bag, does it's sugars and carb content say 0g? everyone has commented on the cinnamon taste/smell, is there any citrus taste/smell observed?",
+            "How are the individual tea bags packaged?",
+            "How does Marketspice cinnamon-orange compare to Bigelow's Constant comment?",
+            "Is this really being distributed by MarketSpice in Seattle/Pike Place? If so, why are you charging nearly double via Amazon as you do on the website?"
+        ],
+        "description": "Ingredients: Black tea, Cinnamon and Orange flavorings and spices. Contains no sugar. Proprietary black tea blend, spices, natural and artificial flavors. Sugar free. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.038461538461538464,
+        "bleu_score": 0.03655552228545124,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Is this produst just for frappes or can you make just regular coffee?",
+            "Has anyone compared Greek Nescafe's flavor (plain) to Nescafe Clasico? Just wondering if they're similar, or if one is more acidic than the other. THX",
+            "your price is listed as $114.34.... per 7 oz (!?)",
+            "decaf?"
+        ],
+        "description": "This instant coffee by Nescafe is used for making the famous frappe iced coffee. Coffee Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.029411764705882353,
+        "bleu_score": 0.02846946938149362,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Expiration date?",
+            "A lot of MREs come with heating thingy -- does this one?",
+            "Do they come in the plastic packaging, or in this cardboard that is shown? The carboard usually comes inside a plastic package does it not?",
+            "Is this one packet or is it 18 packets?",
+            "Does this come with the spoon/napkin/salt and pepper packets?"
+        ],
+        "description": "MRE Entree Chili Mac Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the expiration date on this product?",
+        "gleu_score": 0.06666666666666667,
+        "bleu_score": 0.03226013518927287,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Does this have an OU or other kosher certification?",
+            "country of origin?",
+            "What are the ingredients? Does this contain gluten, soy, coloring, etc?",
+            "Ingredient Question: Does this extract contain alcohol?",
+            "How much extract is required to make a strong maple syrup? What is a recommended recipe? Would like to use in a Maple Bacon Cure.",
+            "What is the shelf life after opening? (Is refrigeration required?)"
+        ],
+        "description": "Easy to keep on hand for any recipe calling for maple flavor. Strong, clean maple flavor. All natural maple extract. Great for making cookies, cakes and frostings. Add to baked beans for a delicious maple flavor. This product is labelled to United States standards and may differ from similar products sold elsewhere in its ingredients, labeling and allergen warnings Alcohol, water, natural caramel color, maple concentrate. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the expiration date on this product?",
+        "gleu_score": 0.17647058823529413,
+        "bleu_score": 0.1477219991186121,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Would this work for hard candy like a jolly rancher?",
+            "What are the exact ingredients? Is it simply cinnamon bark oil, or is it in another oil base or alcohol? Thank you.",
+            "Is this product good to use to scent pinecones?",
+            "Will this disperse into alcohol?",
+            "Is this real cinnamon oil, or is it cassia oil? I am using this for herbal medicine and it needs to be real cinnamon",
+            "From which Cinnamon Plant is this made? Ceylon, Saigon, or Chinese? Thanks - makes all the difference in the world!",
+            "Can this be used as natural deterrent for ants?",
+            "Could this be used on the skin? Like in body butter?",
+            "Is it harmful to the skin?",
+            "What country does the cinnamon come from?"
+        ],
+        "description": "Powerful flavor. Use sparingly. Use in recipes calling for cinnamon flavor. No artificial flavors. Cinnamon leaf oil is an essential ingredient for making apple butter. It is also used in candy making and to make cinnamon candied apples. Used in chocolate icings, ice cream and baking, the intense cinnamon flavor adds a delicious flavor twist. This highly specialized culinary item is difficult to find. Wear gloves and eye protection when handling Pure Cinnamon Oil. cinnamon leaf oil. Keep away from children, pets, eyes, skin. Use gloves/splash goggles. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the expiration date on this product?",
+        "gleu_score": 0.07894736842105263,
+        "bleu_score": 0.04153509237206396,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "what quantity equals regular real vanilla in baking",
+            "What is the difference in the dark vanilla and the clear vanilla?",
+            "does it contain any alcohol or sugar?",
+            "Is this vanilla glutin-free? I love it, but am not sure and need to make gluten-free cookies for my friend.",
+            "Whats the difference between this and pure Mexican Vanilla? See Below",
+            "Is it gluten free?"
+        ],
+        "description": "Molina Vanilla does not contain coumarin. It containes vanillin, an artificial flavor (or flavoring). Molina is the pioneer of the Mexican Vanillas since 1944, Molina? Vanilla is made with high quality ingredients, and it's original formula, which helps to give our product a natural vanilla flavor. It will give your cakes, bakery, frozen or frozen snows, trowels, yogurts, drinks, desserts, candies, etc., an additional flavor. Molina Vanilla has an incomparable flavor. It's the favorite kind of Vanilla in Mexico and the United States. A blend of Mexico's finest pure vanilla and vanillin. Ingredients: Water, 2 Pure Vanilla Extract, 1.8 Ethyl Acohol, Propylene Gycol, Vanillin, Ethyl Vanillin, Caramel Color and Potassium Sorbate (as preservative) Molina Vanilla is produced by: Productos Uvavina SA de CV de Zapopan, Jalisco Mexico. A Kosher Pareve product Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.14285714285714285,
+        "bleu_score": 0.1477219991186121,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "The listing states \"5 lb (Pack of 6)\" and a price of $0.05/oz, that works out to 30 lbs of peas. Is this correct or is the listing in error?",
+            "Are they just slightly spicy, or very hot to the point where they will almost take your breath away?",
+            "What are the ingredients on the bag, please?",
+            "Is it gluten free??",
+            "I had about 2 cups of the peas and the second day I couldn't taste sweetness and saltness. It's been like this for 3 days. I don't know what happened.",
+            "Is there any sugar or wheat in the ingredients?",
+            "Is there an ingredient list anywhere? I can't seem to find one on-line. Thanks!",
+            "What country are these made in?",
+            "isn't there free shipping on orders over $35? I am not getting that option at checkout."
+        ],
+        "description": "Hoosier Hill Farm brand Wasabi Peas are colorful peas packed with a big crunch and a lot of spice! These peas are coated with real wasabi, often referred to as Japanese horseradish, making these bite sized peas an intense and unique snack. This product is labelled to United States standards and may differ from similar products sold elsewhere in its ingredients, labeling and allergen warnings Ing: Green peas, rice flour, palm oil, sugar, salt, wasabi powder, seasoning, coloring (FD&C blue #1, FD&C yellow #5). Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "Is this product gluten free?",
+        "gleu_score": 0.14285714285714285,
+        "bleu_score": 0.12574334296829354,
+        "meteor_score": 0.996
+    },
+    {
+        "questions": [
+            "It says gluten free in the description, but the ingredients list on this page says it has organic wheat. How can that be? Thanks",
+            "is this gluten free?",
+            "How much sodium is there in a tablespoon or teaspoon?"
+        ],
+        "description": "Enjoy all the benefits of Gluten Free Tamari with 28% less sodium. Our natural fermentation process gives San-J Tamari great flavor enhancing properties. This product contains soy ingredients Soybeans, Salt, Alcohol (to preserve freshness) Add Tamari to soups, gravies, sauces and casseroles. Use it as a marinade and in stir-fry dishes. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.07692307692307693,
+        "bleu_score": 0.02846946938149362,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "How much sodium is in the Morton lite salt?",
+            "Does this contain iodine? Thank you.",
+            "Does this contain potassium? If so how much?",
+            "can someone tell me what it actually tastes like? some say bad some good some cant say. is it sulfer tasting like black salt?"
+        ],
+        "description": "11oz light salt with half the sodium of ordinary table salt. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the sodium content of this product?",
+        "gleu_score": 0.1,
+        "bleu_score": 0.039281465090051315,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "How many 12 oz bottles are in 1 pack? The photo would indicate 6, but there is no information that says that is the case.",
+            "does it need to be refrigated after opening?",
+            "In just about any grocery store in the south, you can buy a 12 oz bottle of crystal hot sauce for less than two dollars. This seller wants $9.70?",
+            "Can u Delivery to indonesia?",
+            "How many 12 oz bottles are in a pack? the description doesnt specify. for $11.99, I assume there is more than 1 bottle,andthe picture shows 6.",
+            "How many 12 oz bottles are there in \"1 Pack\"?"
+        ],
+        "description": "Hot Sauce Aged Red Cayenne Peppers, Distilled Vinegar, Salt. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.031914893617021274,
+        "bleu_score": 0.06500593260343691,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Is this price for one can? I can get a can for about $6.",
+            "how many cans do I get for this price?",
+            "Is this for 4 16 oz cans? Does not say and $28+ is way too expensive for one.",
+            "Does this product contain saturated fat? What is the sugar content?",
+            "Is this the price for one can or four? I've ordered 4 cans for this price in the past."
+        ],
+        "description": "Ghirardelli premium hot cocoa. Chocolate Mocha. Mix with hot milk to make delicious hot cocoa. 16 oz. can. Sweet Ground Chocolate And Cocoa (Contains: Sugar, Cocoa, Unsweetened Chocolate, Soy Lecithin - An Emulsifier, Vanilla), Coffee Pour 8 oz of milk into a mug and heat. Add 4 tablespoons Ghirardelli Hot Cocoa to the mix. Stir and enjoy! Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the expiration date on this product?",
+        "gleu_score": 0.18421052631578946,
+        "bleu_score": 0.13036420666577953,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Is this made in USA?",
+            "Expiration date? and Country of manufacture?",
+            "is it from GMO bean or Non-GMO"
+        ],
+        "description": "Kikkoman soy sauce Water, wheat, soybeans, salt Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.038461538461538464,
+        "bleu_score": 0.03655552228545124,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Is this the Vital Wheat I need to make fake meat?",
+            "Is this considered organic? If not does anyone know of an organic brand? Thanks~",
+            "Does wheat gluten have an expiration date?",
+            "is this product \"non-GMO?\"",
+            "I make my own noodles with wheat flour. Can you use it to add to the flour for noodles?",
+            "Is this made in a nuts-free environment?"
+        ],
+        "description": "Flour Gluten Wheat Vital. It is a high quality healthy product. This product is good for health. This product is manufactured in united states. Vital wheat gluten Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the expiration date on this product?",
+        "gleu_score": 0.07692307692307693,
+        "bleu_score": 0.039281465090051315,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "can you make scrambled eggs with it?",
+            "What is the nutritional information for this product? Other similar products show the nutritional label.",
+            "What is protein amount ?",
+            "Do these contain soy?",
+            "what is the expiration date on these?",
+            "Does this product come with a oxygen absorber packet?",
+            "has anyone tried making french macarons with this? does it work?",
+            "What do they have for a shelf life?",
+            "Has anybody used these reconstituted eggs in a Hamilton Beach breakfast sandwich maker? Does it work?",
+            "Is the taste the same or similar to that of a normal egg?"
+        ],
+        "description": "Honeyville's Powdered Whole Eggs are produced exclusively from fresh eggs harvested from chickens in the United States. The eggs are dried and pasteurized in the USA for optimal quality and safety. Powdered Whole Eggs are produced though a special process designed to provide a free flowing powder that has been pasteurized for your safety. Originally developed for use in the military, our whole egg powder, when blended with water, reconstitutes into a product similar to fresh whipped eggs. These reconstituted eggs may then be used as a direct substitute for fresh eggs. Honeyville Powdered Whole Eggs are an ideal product for long term food storage and emergency preparedness. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.16666666666666666,
+        "bleu_score": 0.1880301546543197,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "How much vital wheat gluten should be added to a 2lb loaf? Or what is the ratio of VWG to flour for making a tasty loaf of bread? Thank you!",
+            "How long is the product good for, once it is opened?",
+            "Oops, my Mom gave me wheat gluten I thought it was just great flour I used it in my receipts@ do I need to just toss banana bread?",
+            "My bread comes out clumped/underbaked in the center. What am I doing wrong with the proportions? What are the results of under/over using VWG please?",
+            "Is this a #10 can? thx",
+            "How many cups of vital wheat gluten are in a 3.5 pound can?",
+            "My Recipe for Bread has Shortening and Baking Powder already, could i use Vital Wheat Gluten combine w/ Dough Conditioner? Pls. help me, Thanks to all",
+            "What is the difference in Vital Wheat Gluten and the Vital Wheat Conditioner?",
+            "Is this from organic wheat / or Non GMO / GE wheat?"
+        ],
+        "description": "Honeyville&apos;s Vital Wheat Gluten can be used to greatly improve bakery products. It is the gluten in wheat flour that is responsible for the unique features of bread, which are not possible with other cereal flours. Vital Wheat Gluten is a concentrated protein that possesses a special visco-elastic property. As a functional protein, vital wheat gluten provides additional qualities to the dough when used in baked goods. Wheat flour contains some natural gluten but often not to the extent desired. Many baked goods benefit from the addition of vital wheat gluten. The effect on the bread is remarkable. Honeyville Vital Wheat Gluten is an ideal product for long term food storage and emergency preparedness. Vital Wheat Gluten. Certified kosher with documentation available upon request. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.13043478260869565,
+        "bleu_score": 0.1561969968460128,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "is it adm product PRO-FAM 825",
+            "what's the serving size and how much protein is contained in each serving?",
+            "can this powder be used in bread dough? In pasta dough? if so, would this product produce any notiIceable flavor in breads and pasta?",
+            "Where is the soy grown?",
+            "How does this mix with a good shake in the shaker (without using a blender)?",
+            "how much protein per serving? What is a serving?",
+            "Is this isolate water extracted or sodium extracted?",
+            "how well does it mix?",
+            "What is cholesterol grams and daily % per serving? thanks!!"
+        ],
+        "description": "Honeyville's Soy Protein Isolate is a highly refined or purified form of soy protein with a minimum protein content of 90% on a moisture-free basis. It is made from defatted soy flour which has had most of the non-protein components, fats and carbohydrates removed. Because of this, it has a very neutral flavor and mixes well with other flavorful ingredients and products. Soy Protein Isolate is mainly used to increase protein content, enhance moisture retention, and improve the texture of meats. Honeyville Soy Protein Isolate is an ideal product for your protein needs. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.11538461538461539,
+        "bleu_score": 0.08307018474412793,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Is this the recent 2014 blend?",
+            "What is the expiration date on this bag of coffee?",
+            "how many bags is this?"
+        ],
+        "description": "2018 Edition Starbucks Casi Cielo Medium Roast Whole Beans Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the expiration date on this product?",
+        "gleu_score": 0.6470588235294118,
+        "bleu_score": 0.8408964152537145,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Does it contains oxidized cholesterol?",
+            "No indication that this is a group of 12 oz bags. Is this really $103 for 12 oz?",
+            "How do you justify $103.00 for a bag of dry milk? That is outrageous.",
+            "How do I store this?",
+            "Expiration Date?",
+            "It is just one bag or a pack of 4?",
+            "Looking at the nutritional content label, can you tell me what the serving size is and the sodium content per serving?"
+        ],
+        "description": "Organic Valley Organic Nonfat Dry Milk Powder Store in a cool, dry place. For best results, do not store in the refrigerator. Organic Skim Milk How to Mix With WaterAdd 3 tablespoons Organic Valley Nonfat Dry Milk to 1 cup (8oz) cold water. Stir, shake, or blend vigorously. For a richer, thicker taste, use 4-5 tablespoons dry milk to 1 cup cold water. Use Organic Valley Nonfat Dry Milk whenever you use milk in cooking or baking. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.058823529411764705,
+        "bleu_score": 0.03059243577232402,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Do they still contain aspartame?",
+            "What is the size (oz) of this product?",
+            "can anyone compare Lakersol's to Grether's: Black Currant Pastilles"
+        ],
+        "description": "Sugarfree and calorie free. Enjoy the refreshing taste of Lakerol, appreciated around the world. Lakerol gives you long lasting pleasure anytime, anywhere. Makes people talk. Made in Sweden. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "Is this product gluten free?",
+        "gleu_score": 0.038461538461538464,
+        "bleu_score": 0.05372849659117709,
+        "meteor_score": 0.996
+    },
+    {
+        "questions": [
+            "do you ship to france",
+            "Is this GMO free?",
+            "maximum shelf live?",
+            "Is this rice organic ?",
+            "Any idea where the rice was grown?"
+        ],
+        "description": "Honeyville's Long Grain Brown Rice is an excellent nutritional food source for emergency preparedness. Rice is the most important grain with regard to human nutrition and caloric intake, providing more than one fifth of the calories consumed worldwide by the human species. As a grain, it is the most important staple food for a large part of the world's human population, especially in East Asia, Southeast Asia, South Asia, the Middle East, and the West Indies. Honeyville Long Grain Brown Rice is an ideal product for long term food storage and emergency preparedness. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.038461538461538464,
+        "bleu_score": 0.03655552228545124,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "are these a chewy candy or a hard candy? I grew up with them, but just cant remember...",
+            "Are these the larger ones or regular sized? Thanks!",
+            "Can you give an estimate as to the number of individually wrapped candies?",
+            "Are these Kosher and marked as Kosher?",
+            "is there any way to find out what the expiration date is before ordering? I'm trying to order these for a wedding in September."
+        ],
+        "description": "Classic sweet and sour Lemonheads. 3/4\" in diameter. Approx 50 pieces per pound. Available upon request Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.043478260869565216,
+        "bleu_score": 0.03655552228545124,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Is anyone able to measure the diameter of the mint itself? I need to put a sticker on it and saw a comment that these are smaller. Thank you!",
+            "Are these soft? Or the hard kind?",
+            "Where can I find a list of ingrediants? Tasty is just part of the requirement.",
+            "how many mints apprx are in the bag?",
+            "Should I pay extra for \"frustration-free packaging\"? What is frustrating about the normal packaging?",
+            "Is the Starlight peppermint candy Kosher? Needs to have symbol on it that shows it is Kosher certified",
+            "Does it contain real peppermint oil? Does it contain Red 40?"
+        ],
+        "description": "Peppermint Starlights 5lb Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.08,
+        "bleu_score": 0.06985342056580097,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Is this dark or light rye flower",
+            "How finely ground is this flour? (Compared to all-purpose, etc)",
+            "does the label indicate if it was processed on the same equipment or a facility that processes peanuts or tree nuts?"
+        ],
+        "description": "Arrowhead Mills has been one of America's most trusted organic baking brands for 50 years. We take great pride in the fact that more than half of organic food lovers from coast-to-coast count on our naturally enriched simply made products to nourish themselves and their families. As Arrowhead Mills has grown, our brand and our product line have grown with us. Over the years, we've added hot and cold cereals, as well as delicious pancake, waffle, cake and brownie mixes; nut butters; seasonal products; and gluten-free productsall of which taste great, are all-natural and are entirely free of chemical pesticides and herbicides. Our recipe for success is simple: We remain true to the core values and straightforward business practices on which our company was founded half a century ago. That's why we purchase many of our wholesome ingredients directly from local suppliers. It's why we emphasize environmental responsibility by maintaining sustainable farming practices with no harmful chemical pesticides and herbicides, and take decisive steps to shrink our carbon footprint and conserve our planet. It's why we provide pure, great-tasting grain and food products that cooks, homemakers and busy parents rely on as the cornerstone of their nutritional health. In short, it's why every day, in all we do, we continue to deliver on the Arrowhead Mills brand promisesimple products, straight from nature and as close as you can get to home. Organic Whole Grain Rye Flour. Store in a cool dry place. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the expiration date on this product?",
+        "gleu_score": 0.058823529411764705,
+        "bleu_score": 0.039281465090051315,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Is this very spicy? I'm new to Indian food but it looks delicious.",
+            "Why are the Nutritian facts not displayed",
+            "directions: make a 2\"cut in the pouch. where is that? i made a cut at the dotted line and some lentils oozed out. heat in microwave on a plate?",
+            "Is this to be stored in the refrigerator or is it fine in the pantry?",
+            "What is the shelf life?",
+            "Why is it so expensive?",
+            "where can I buy it?",
+            "What is the calorie content? Proteins? Sodium level?"
+        ],
+        "description": "Organic brown rice tossed with red chilies, raisins and spices, this dish is just the right blend of sweet and savory. Just heat and serve by itself, or as a compliment to any meal.",
+        "generated_question": "What is the expiration date on this item?",
+        "gleu_score": 0.23076923076923078,
+        "bleu_score": 0.1561969968460128,
+        "meteor_score": 0.939622641509434
+    },
+    {
+        "questions": [
+            "Where is the kelp sourced?",
+            "how much salt ?",
+            "how can it be \"organic\" if it is harvested off the coast of Maine in the ocean?",
+            "What are the other ingredients besides Kelp?",
+            "Is this a good source of iodine?",
+            "Please give an amount of iodine provided per serving and the size of the serving. Thanks!",
+            "does it taste fishy. I am a vegetarian?"
+        ],
+        "description": "Thanks to our deep water kelp, you will more than meet 100% of your iodine RDA of 150 Micrograms. A serving of 1/4 teaspoon will provide approixmately 3 mg of iodine, or 20 times the RDA. Is that safe? Dr. David Brownstein, MD, thinks so. He regularly prescribes 6-12 mg of iodine as a maintenance dose, and up to 50 mg to \"load\" the body until it reaches sufficiency and excretes 90%. In his book, \"Iodine, Why You Need It\", he carefully analyzes and disproves the seven common concers with using iodine above the RDA, showing in case after case history that the whole body benefits while safely excreting excess iodine in the urine. We also know Asian cultures with high consumption of seafood and seaweed, average well above 150 mcg of iodine per day and show no ill effects, with markedly longer lifespans. If you are concerned about too much iodine, please consult your health practitioner. Otherwise, enjoy the wealth of nutrition this kelp brings you from the deep Atlantic. Organic raw kelp (Alaria esculenta & axcophyllum nodosum) Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.11538461538461539,
+        "bleu_score": 0.07386099955930606,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "On a scale of 1 to 5, 0 being decaffeinated, what is the caffeine content? Thanks, Mark.",
+            "How many cups of tea does this one-pound package make?",
+            "How does the loose leaf compare with the bags? Any loss of flaver--especially over time?",
+            "What size glass jar should I buy to hold one pound of this tea?",
+            "can you freeze this tea?",
+            "How many teabags are included?",
+            "Just want to confirm...this product is loose leaf tea, right?"
+        ],
+        "description": "MarketSpice Tea is the \"tea from Seattle that's famous world wide.\" Customers have been enjoying this naturally sweet tea since back in the 60's when it was first developed. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.08,
+        "bleu_score": 0.06840676598421276,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "What is the complete ingredient list for this item?",
+            "I purchased it and now I am concerned about the origin, Where is it manufactured? I just get the name of the distributor on the label, not the origin",
+            "is the glucose can make the cake more moist for baking?",
+            "Is this product a syrup? Is it the glucose syrup called for in cake baking recipes?",
+            "Is this expensive? $10 a pound?",
+            "How is this different from table cane sugar?",
+            "Is glucose healthier than high fructose corn syruo"
+        ],
+        "description": "Glucose Syrup 16 Ounces by CK. This is the heavy glucose used in making homemade rolled fondant and candies. 100% Corn Syrup, Certified Kosher, Pareve by the Chicago Rabbinical Council. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.23333333333333334,
+        "bleu_score": 0.1561969968460128,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "What are the ingredients? Is it made with regular sugar or fake sugar?",
+            "Does anyone know the shelf life of product once it is open? I have some left over from a wedding cake. Its in the fridge. How long will it keep?",
+            "Does the filling need to be refrigerated once it's spread between cake layers?",
+            "can it be frozen for future use?",
+            "Cupcakes: How many cupcakes can you fill with one packet?",
+            "Are your fillings Kosher Pareve?"
+        ],
+        "description": "Bavarian cream pastry filling by henry and henry is perfect for filling cakes and tortes and eclairs. It's fine flavor works great in combination with cakes, chocolate, cinnamon or fruit. **Contains: Soy Ingredients. Ing: Water, Sugar, Modified Food Starch, Contains 2% or less of the following: Partially Hydrogenated Soybean and Cottonseed Oils, Salt, Natural and Artificial Flavors, Agar Agar, Titanium Dioxide (color), Sorbic Acid, Yellow 5, Yellow 6, Propylene Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the expiration date on this product?",
+        "gleu_score": 0.043478260869565216,
+        "bleu_score": 0.03655552228545124,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Are there 30 envelopes total or 90?",
+            "Is NESTL&Eacute; Fat Free Hot Cocoa lactose free?",
+            "Is it sugar free?",
+            "Calories",
+            "Is this product cans or packs?",
+            "what is the expiration date for this product",
+            "What is the expiration date for Nestle Hot Cocoa Mix, Fat Free, 7.33-Ounce Canisters",
+            "are they not making this product in packets?",
+            "What is the expiration date of this product?",
+            "Is it gluten free"
+        ],
+        "description": "With over 100 years of making chocolatey memories, the chocolate experts at NESTL bring you a rich, creamy, chocolatey mug of hot cocoa with every serving. This season, create warm connections and memories with loved ones by enjoying a delicious hot cocoa treat anywhere, anytime. Made on equipment that also processes soy and wheat. Sugar, Corn Syrup Solids, Vegetable Oil (Partially Hydrogenated Coconut or Palm Kernel and Hydrogenated Soybean) [Adds A Trivial Amount of Trans Fat], Dairy Product Solids (From Milk), Cocoa Processed With Alkali, and less than 2% of Salt, Cellulose Gum, Sodium Caseinate, Dipotassium Phosphate, Sodium Aluminoslicate, Mono-and Diglycerides, Guar Gum, Artificial Flavors, Sucralose. Conventional Preparation: Empty one envelope hot cocoa mix into mug. Add one cup hot water or milk while stirring. Microwave Preparation: Heat one cup of water or milk in microwave-safe mug for 1-1/2 minutes or until hot. Stir in one envelope hot cocoa mix. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the expiration date on this product?",
+        "gleu_score": 0.6538461538461539,
+        "bleu_score": 0.5946035575013605,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Can i order only one box to try.How much per box?",
+            "will this tea help clear my throat?",
+            "Does this tea contain caffeine?",
+            "Hello, does this have licorice in it? I understand it can raise blood pressure... thanks",
+            "Are the tea bags biodegradable?",
+            "Hi, i am also looking to order only one box and i dont see the option",
+            "Can I chose 6 diff types of tea for one purchase (6 in a pack)"
+        ],
+        "description": "Personality: Smooth and silky. Herbal Power: Helps you sing it loud, say it proud, stand up and be heard. Reason to Love: Slippery elm or Ulmus rubra (Latin for \"red elm,\" so called for its lovely reddish bark) is a beautiful, native North American elm tree. Its the inner bark of this tree that is actually called \"slippery elm\" due to its, yes, slippery, smooth, and slimy-in-a-good-way properties. Combined with licorice and marshmallow root, we think this tea blend is like taking your voice to the spa--because we all need a little comfort sometimes so we can get back to being our best. Taste: Sweet and earthy, silky, with a distinct licorice taste. The statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease. <div class=\"aplus\"> <div class='leftImage' style='width:300px'><img src='https://images-na.ssl-images-amazon.com/images/G/01/aplus/detail-page/B0009F3P00_5.jpg' alt=''/><div class='imageCaption'></div></div> <div class='rightImage' style='width:150px'><img src='https://images-na.ssl-images-amazon.com/images/G/01/aplus/detail-page/B0009F3P00_6.jpg' width='128' height='150' alt=''/><div class='imageCaption'></div></div> <h4>Throat Coat</h4> <h5>Supports Throat Health*</h5> <ul> <li>Personality  Smooth and silky</li> <li>Herbal Power - Helps you sing it out loud, say it proud, stand up and be heard*</li> <li>Taste - Sweet and earthy, silky, with a distinct licorice taste</li> </ul> <h5>Reason to Love</h5> Slippery elm or Ulmus rubra (Latin for red elm, so called for its lovely reddish bark) is a beautiful, native North American elm tree. Its the inner bark of this tree that is actually called slippery elm due to its, yes, slippery, smooth, and slimy-in-a-good-way properties. Combined with licorice and marshmallow root, we think this tea blend is like taking your voice to the spa. Our slippery elm bark is wild-collected throughout the beautiful wild lands of the southern Midwest. Our collectors ramble through forests they know intimately looking for trees and branches that are appropriate for cutting. Its a delicate practice that requires a long-viewthese forests are sustainably managed so that this important herbal resource will be available for generations to come. The collectors must carefully strip the outer bark to get to the prized inner (slippery) bark, which is then dried and bundled up before it can be ground up for tea. We raise the bar. The quality standard of the herbs we use is hard to pronounce, difficult to meet, and it's what makes us different, better. Pharmacopoeial: it's the only quality standard our herbalists can rely on when blending teas for your health and wellness. Throat Coat, Throat Coat Lemon Echinacea Plus, Echinacea plus, Echinacea plus elder, Breathe Easy, Gypsy Cold Care, CCPM, Herba tussin, Seasonal Sampler, Just For Kids, Just for Kids Throat Coat, Throat Herbal Syrup, Echinacea Elder Herbal Syrup, Herba Tussin Syrup. Over thousands of years, humans have accumulated a vast body of knowledge and tradition around the use of plants for health, vitality and well-being. This knowledge eventually became systematized into the worlds great herbal traditions. These traditions contain the wisdom of how to use plants: the right parts of the right plants for the right purpose. It is from these sources of wisdom that we have learned how to create the herbal blends we offer to you. Our herbalists adhere to these principles create rational, time-tested blends that you can rely on. <small>* These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.</small> This product is labelled to United States standards and may differ from similar products sold elsewhere in its ingredients, labeling and allergen warnings Organic licorice root 760 mg, Organic slippery elm bark [USP] 80 mg, Organic licorice root dry aqueous extract 60 mg, Organic marshmallow root [PhEur] 60 mg, Proprietary Blend: 1040 mg, Organic wild cherry bark (Prunus serotina), Organic bitter fennel fruit, Organic Saigon cinnamon bark, Organic sweet orange peel This is the pharmacopoeial quality standard we use because quality matters. TO ENJOY POUR 8 oz. freshly boiled water over 1 tea bag. COVER cup & STEEP for 10-15 minutes. SQUEEZE tea bag to ensure maximum goodness in your cup. ENJOY 4-6 cups daily. Especially good with honey! PLEASE NOTE: Product image is representative of the product offered but may not have the exact attributes. Please read product description for the specific attributes of this product. The information above is intended for reference only. While we attempt to keep our information accurate, we cannot guarantee it is an accurate representation of the latest formulation of the product. If you have any concerns, please visit the vendor's web site. The information above are the views of the product's manufacturer. These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the difference between this tea and the one that comes with it?",
+        "gleu_score": 0.06,
+        "bleu_score": 0.037013098960369896,
+        "meteor_score": 0.7632211538461539
+    },
+    {
+        "questions": [
+            "what do you mean by a 6 pack. I see the same item with 16 bags for $3.99 why is this more expensive",
+            "What is the content on the supplement label?",
+            "The box says contains caffeine then it says herbal. Is it 100% herbal? Or it has some caffeine? I can't have caffeine due to my heart palpitations.",
+            "what kinds of flavors are there",
+            "Does this tea have caffine?"
+        ],
+        "description": "",
+        "generated_question": "What is the expiration date on this item?",
+        "gleu_score": 0.2692307692307692,
+        "bleu_score": 0.1561969968460128,
+        "meteor_score": 0.939622641509434
+    },
+    {
+        "questions": [
+            "What kind of expiration do these pods have? If I buy 150 of them and it takes me a year to get through them all, how will they taste by the end?",
+            "Anyone know which side goes down? One side has small dimples and the other is smooth. Also, how do I keep them from sticking in the machine?",
+            "Can I use these pods in my Verismo machine?"
+        ],
+        "description": "Lucaff blend has a delicate and sweet taste, an unmistakable chocolaty aroma and a bouquet that is reminiscent of fresh toast. 100% Roasted Ground Coffee To use in a ESE POD only machine or any espresso maker with an ESE pod adapter Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the expiration date on this product?",
+        "gleu_score": 0.02459016393442623,
+        "bleu_score": 0.0346657712709552,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "are the plastic jars BPA &amp; phlalate free? what is the recycle number on plastic jar? Please answer thank you",
+            "Okay is it Virgin or EXTRA virgin? There is a difference! It says I've bought this before(same#), but mine says EXTRA. Please help",
+            "How to find experation date?",
+            "Can this be used as a daily/night moisturizer by itself? What about protection from the sun?",
+            "If you bought the 54 ounce jar, how well was it packed? Did it arrive without leakage? Thanks",
+            "What is the Lauric Acid percentage &amp; the medium chain fatty acids percentage of this coconut oil please??",
+            "can you use this product as a topical body oil",
+            "can this oil be used for hair treatment?",
+            "Has anyone used this as a sunscreen?",
+            "Is this really 54 oz or 29 oz like it shows in the picture?"
+        ],
+        "description": "There is no comparison between Nutiva's cold-pressed, Organic virgin coconut oil, with its light taste, pleasant aroma, and pure white color, and industrialized coconut oil, with its bland taste, faint aroma, and off-white color. Please note that any tiny brown specks found at the bottom of Nutiva's Coconut oil are from the coconut fiber and are indigenous to extra-virgin coconut oil.Coconut oil is about 50 percent lauric acid, a rare medium-chain fatty acid found in mother's milk that supports healthy metabolism and is now being studied for its anti-fungal, anti-viral, and anti-bacterial, health-protecting properties. Overall, coconut oil contains 92% saturated fats, and only 1% Omega-6, the fat Americans get way too much of.Certified organic and non-GMOMade from fresh coconuts, not dried copraCold-processedChemical-freeUnfermented, Unbleached, Undeodorized, Unhydrogenated, UnrefinedPure white like fresh coconutTastes like fresh coconut and has a fresh coconut fragranceMade with our Fresh Is Best commitment",
+        "generated_question": "What is the expiration date on this product?",
+        "gleu_score": 0.10606060606060606,
+        "bleu_score": 0.1561969968460128,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "Do you have FDA approval for this oil ?",
+            "Has this product been tested for arsenic? Due to high are arsenic content in rice, any rice related food company should address this issue",
+            "Where in the USA is this oil manufactured or where is its rice grown?",
+            "How does Rice Bran Oil tend to keep? Would you need to replace it every six months ?",
+            "Is it cold press?",
+            "Is this packed in glass or plastic?",
+            "What is the smoke point of your oil in Fahrenheit?",
+            "is this oil good for deep frying??",
+            "Is this oil cold pressed?"
+        ],
+        "description": " <b>ALL NATURAL RICE BRAN OIL - 100% CALIFORNIA GROWN RICE</b>  Made from Non GMO Rice grown in California Rich in Vitamin E and Gamma-Oryzanol Heart Healthy Tophe rice bran oil is all you need. <b>Our raving fans love Tophe Rice Bran Oil</b> HEALTHY FOR THE HEART - Research has shown Rice Bran oil to lower bad cholesterol (LDLs) and increase good cholesterol (HDLs).<br />The Japanese refer to this oil as Heart Oil because of its heart-healthy properties. GREAT FOR COOKING - Rice bran oil has a naturally high smoking point of 490 degrees. Light neutral flavor and aroma makes it great for flash frying, sauteing, and making dressing due to its ability to emulsify easily. Make you next tempura dish at home! GREAT FOR HORSES AND DOGS - Provide your pet with the care it needs to look great! Can be used for older horses to maintain weight, provide a shiny coat, and strong hooves. Use for your dog as a supplement to help keep a great looking coat. HEALTHY PHYSICAL COMPOSITION - No cholesterol or trans-fatty acids, and is naturally low in saturated fatty acids, GMO Free and all-natural. <b>Add To Cart and Buy now!</b> 100% Pure US Made Rice Bran Oil Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.20588235294117646,
+        "bleu_score": 0.1561969968460128,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "I'm supposed to eat 8 oz. daily of unsweetened plain yogurt. Would this work the same way?",
+            "is this used as a yogurt starter",
+            "I want to know if the yogurt powder is organic and the shelf life it will be mixed in with other things for a skin care product???",
+            "would to know if your powered yogurt is organic and the shelf life when mixed??",
+            "does anybody know the serving size? and how many servings I can get from this 1lb. bag? thanks!",
+            "what is salt content?",
+            "how many calories per serving size?",
+            "Is this the same as Kishk powder used in middle east cooking?",
+            "Can this be used to make yogurt covered pretzels? If so, how? I tried Yoplait yogurt and the results were not what I wanted.",
+            "What are the directions for making plain thick yogurt from this?"
+        ],
+        "description": "Yogurt Powder, 1lb. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.12962962962962962,
+        "bleu_score": 0.16990442448471224,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "What are the mixing instructions for this?",
+            "what is the shelf life of this product? can the shelf life be extended by sealing in mylar bags?",
+            "is there any info on the sugar level in this?",
+            "Does this have TBHQ as preservative?",
+            "how much sour cream does it make weight for weight?",
+            "what are the ingredients of this product?",
+            "Those of you who have used the Barry Farm website: How do you find anything specific?"
+        ],
+        "description": "Sour Cream Powder, 1lb. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the shelf life of this product?",
+        "gleu_score": 0.3142857142857143,
+        "bleu_score": 0.8694417438899829,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "what is the shelf life of this product?",
+            "What are the ingredients?",
+            "Is this a 3 pack or are they asking $36 for a 23oz bottle?",
+            "how do you compare the prickly pear syrup with the prickly pear puree for making the prickly pear margarita?"
+        ],
+        "description": "The naturally beautiful magenta colored syrup made from prickly pear cactus juice is customarily used over pancakes and desserts, but is also used to make exceptionally flavorful Cactus Margaritas, Wine Coolers, Spritzers, and Prickly Pear Lemonade.  Label may vary from picture. Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the expiration date on this product?",
+        "gleu_score": 0.23076923076923078,
+        "bleu_score": 0.08783602619713961,
+        "meteor_score": 0.9990234375
+    },
+    {
+        "questions": [
+            "What picture is on the 700 chocolate coins?",
+            "Is this made in china?",
+            "Are the coins all the same size? How big?",
+            "How many lbs. per 700 count bag?"
+        ],
+        "description": "the best milk gold chocolate coins in the world for the best price Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.",
+        "generated_question": "What is the expiration date on this product?",
+        "gleu_score": 0.15384615384615385,
+        "bleu_score": 0.04153509237206396,
+        "meteor_score": 0.9990234375
+    }
+]

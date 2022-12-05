@@ -4,6 +4,10 @@ from Gleu_Evaluation import *
 from transformers import pipeline, BartTokenizer, BartForConditionalGeneration
 import os, sys, math, json
 
+#modelName="fine_tuned_baseline"
+modelName="fine_tuned_graph"
+num_products=90
+
 def create_product_file():
     products = []
 
@@ -49,13 +53,15 @@ def generate_questions():
     # Loads model from /models/fine-tuned-bart folder
     print("Loading model")
     tokenizer = BartTokenizer.from_pretrained('facebook/bart-large')
-    model = BartForConditionalGeneration.from_pretrained("./models/fine_tuned_bart", local_files_only=True)
+    model = BartForConditionalGeneration.from_pretrained(f"./models/{modelName}", local_files_only=True)
     #generator = pipeline(task="text-generation", model=model, tokenizer=tokenizer)
     #generator(references[0])
 
     # Generate questions based on description
+
+    products = products[:num_products]
     print(f"Generating questions {len(products)}")
-    
+    \
     for (i, product) in enumerate(products):
         print(i)
         description = product['description']
@@ -70,25 +76,26 @@ def generate_questions():
     json_object = json.dumps(products, indent=4)
     
     # Writing to sample.json
-    with open("output/generated_questions.json", "w") as outfile:
+    with open(f"output/generated_questions_{modelName}.json", "w") as outfile:
         outfile.write(json_object)
 
 def evaluate_questions():
-    references = []
-    with gzip.open('qa_Grocery_and_Gourmet_Food.json.gz') as f:
-        for l in f:
-            j = l.decode('utf-8') # Decode to string
-            j = ast.literal_eval(l.decode('utf-8')) # Turn to dict object
-            question = j['question'] # Get only question property
+    # references = []
+    # with gzip.open('qa_Grocery_and_Gourmet_Food.json.gz') as f:
+    #     for l in f:
+    #         j = l.decode('utf-8') # Decode to string
+    #         j = ast.literal_eval(l.decode('utf-8')) # Turn to dict object
+    #         question = j['question'] # Get only question property
             
-            references.append(question) # Split words into array
+    #         references.append(question) # Split words into array
 
 
-    f = open('output/generated_questions.json')
+    f = open(f'output/generated_questions_{modelName}.json')
     products = json.load(f)
     print("Evaluating generated questions")
     for (i, product) in enumerate(products):
         print(i)
+        references = product['questions']
         generated_question = product['generated_question']
         product['gleu_score'] = evaluate_gleu(generated_question, references)
         product['bleu_score'] = evaluate_bleu(generated_question, references)
@@ -98,13 +105,30 @@ def evaluate_questions():
     json_object = json.dumps(products, indent=4)
     
     # Writing to sample.json
-    with open("output/generated_questions.json", "w") as outfile:
+    with open(f"output/evaluated_questions_{modelName}.json", "w") as outfile:
         outfile.write(json_object)
+
+def evaluation_statistics():
+    f = open(f'output/evaluated_questions_{modelName}.json')
+    products = json.load(f)
+    avg_bleu = 0
+    avg_gleu = 0
+    avg_meteor = 0
+    for product in products:
+        avg_bleu += product['bleu_score']
+        avg_gleu += product['gleu_score']
+        avg_meteor += product['meteor_score']
+    
+    print(avg_bleu/len(products))
+    print(avg_gleu/len(products))
+    print(avg_meteor/len(products))
+
 
 if __name__ == '__main__':
     # create_product_file()
-    # generate_questions()
+    #generate_questions()
     evaluate_questions()
+    evaluation_statistics()
     # # Output file
     # output_file = "products.json"
 
