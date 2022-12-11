@@ -1,34 +1,9 @@
 from GraphBuilder import *
 from GraphMetrics import *
 import copy
-
-
-import collections
-import math
-
-''' get cosine similarity between two texts '''
-def compute_cosine_sim(vec1, vec2):
-    # sentences to vectors
-    vec1 = collections.Counter(vec1)
-    vec2 = collections.Counter(vec2)
-    # compute magnitudes of each vector
-    mag1 = 0
-    mag2 = 0
-    for key in vec1.keys():
-        mag1 += math.pow(vec1[key],2)
-    for key in vec2.keys():
-        mag2 += math.pow(vec2[key],2)
-    mag1 = math.sqrt(mag1)
-    mag2 = math.sqrt(mag2)
-    # compute numerator
-    numerator = 0
-    for term in set(list(vec1.keys()) + list(vec2.keys())):
-        numerator += vec1[key] * vec2[key]
-    # check case for 0 in-common terms
-    if mag1 * mag2 == 0:
-        return 0
-
-    return float(numerator / (mag1*mag2))
+import os
+import pandas as pd
+import numpy as np
 
 ''' compute the density variation sequence '''
 def density_variation_seq(graph, args):
@@ -39,6 +14,7 @@ def density_variation_seq(graph, args):
     seq_weak_nodes = []
     # compute min density and remove weak nodes until graph is empty
     while len(graph_copy.nodes) > 0:
+        print('status: ',len(graph_copy.nodes))
         cur_min_density, weak_nodes = minimum_density(graph_copy, args)
         seq_min_densities.append(cur_min_density)
         seq_weak_nodes.append(weak_nodes)
@@ -94,7 +70,6 @@ def identify_core_nodes(seq_min_densities, seq_weak_nodes,
                         # if condition 2 also satisfied, add as a core node
                         if condition2:
                             core_nodes.extend(seq_weak_nodes[i])
-
     return core_nodes
 
 
@@ -131,29 +106,30 @@ def expand_clusters(core_nodes_dict, graph):
     for node in graph.nodes:
         # check only remaining non-core nodes
         if node not in core_nodes_dict.keys():
-            # set up comparison node calculation
-            ind = 0
-            max_sim = 0
-            max_node = 0
-            # iterate thru clusters
-            for core_node in core_nodes_dict.keys():
-                # define the cluster (i.e. add core node to assoc cluster nodes)
-                cluster_set = [core_node]
-                cluster_set.extend(core_nodes_dict[core_node])
-                # calculate similarity between node and cluster
-                cur_node_cluster_sim = node_cluster_similarity(node, cluster_set, graph)
-                # initialize comparison node
-                if ind == 0:
-                    max_sim = cur_node_cluster_sim
-                    max_node = core_node
-                ind += 1
-                # update max sim and node if necessary
-                if cur_node_cluster_sim > max_sim:
-                    max_sim = cur_node_cluster_sim
-                    max_node = core_node
-            # add the node to the cluster
-            core_nodes_dict[max_node].append(node)
-    # return expanded clusters
+            if len(core_nodes_dict.keys()) > 0:
+                # set up comparison node calculation
+                ind = 0
+                max_sim = 0
+                max_node = 0
+                # iterate thru clusters
+                for core_node in core_nodes_dict.keys():
+                    # define the cluster (i.e. add core node to assoc cluster nodes)
+                    cluster_set = [core_node]
+                    cluster_set.extend(core_nodes_dict[core_node])
+                    # calculate similarity between node and cluster
+                    cur_node_cluster_sim = node_cluster_similarity(node, cluster_set, graph)
+                    # initialize comparison node
+                    if ind == 0:
+                        max_sim = cur_node_cluster_sim
+                        max_node = core_node
+                    ind += 1
+                    # update max sim and node if necessary
+                    if cur_node_cluster_sim > max_sim:
+                        max_sim = cur_node_cluster_sim
+                        max_node = core_node
+                # add the node to the cluster
+                core_nodes_dict[max_node].append(node)
+        # return expanded clusters
     return core_nodes_dict
 
 
@@ -166,26 +142,93 @@ the core cluster algorithm is comprised of 4 steps:
  '''
 def core_cluster(graph, args):
     # core clustering time oooo 
+    print('calculating min density sequence...')
     seq_min_densities, seq_weak_nodes = density_variation_seq(graph, args)
+    print('identifying core nodes...')
     core_nodes = identify_core_nodes(seq_min_densities, seq_weak_nodes, alpha=.01, beta=1)
+    print('partitioning core nodes...')
     core_nodes_dict = partition_core_nodes(core_nodes)
+    print('final step: clustering nodes...')
     core_nodes_dict = expand_clusters(core_nodes_dict, graph)
+    print('core clustering complete!')
+    return core_nodes_dict
 
 
+''' get the global clusters that local desc has least association with.
+use the threshold to determine how similar a local desc has to be for 
+a cluster to be disregarded.
+ '''
+def get_miss_info(local_desc, global_clusters, sim_threshold, graph):
+    ind = 0
+    miss_info_clusters = []
+    sims = []
+    cluster_keys = []
+    # iter through each global cluster and calculate the sim with local
+    for cluster in global_clusters.keys():
+        #cur_sim = cluster_cluster_similarity(local_desc, global_clusters[cluster], graph)
+        cur_sim = local_global_similarity(local_desc, global_clusters[cluster], graph)
+        sims.append(cur_sim)
+        cluster_keys.append(cluster)
+        # if sim < threshold, track it
+        # if cur_sim < sim_threshold:
+        #     miss_info_clusters.append(cluster)
+    
+    if len(sims) > 0:
+        tq = np.percentile(sims, 10)
+        ind = 0
+        for sim in sims:
+            if sim < tq:
+                miss_info_clusters.append(cluster_keys[ind])
+            ind += 1
+
+    return miss_info_clusters
 
 def main():
     # test sample text
-    raw_text = "Premium composition leather exterior and soft interior offer great protection against daily use; Classic and professional design, solid construction\
-                Support auto Sleep/Wake feature; Cover features magnetic closure; Features a large front document card pocket to keep personal belongings\
-                Full access to all features (Cameras, Speaker, Ports and Buttons); Multiple slots able to set up multiple horizontal stand angles\
-                Built-in elastic pencil holder for Apple Pencil or stylus"
-    #raw_text = "Premium composition leather exterior and soft interior offer great protection against daily use"
-    args = {'TokenType':'word', 'EdgeType':'single', 'GraphType':'undirected'}
-    # build graph
-    graph = build_text_graph(raw_text,args)
-    core_cluster(graph, args)
-
-
+    # raw_text = "Premium composition leather exterior and soft interior offer great protection against daily use; Classic and professional design, solid construction\
+    #             Support auto Sleep/Wake feature; Cover features magnetic closure; Features a large front document card pocket to keep personal belongings\
+    #             Full access to all features (Cameras, Speaker, Ports and Buttons); Multiple slots able to set up multiple horizontal stand angles\
+    #             Built-in elastic pencil holder for Apple Pencil or stylus"
+    # #raw_text = "Premium composition leather exterior and soft interior offer great protection against daily use"
+    # args = {'TokenType':'word', 'EdgeType':'single', 'GraphType':'undirected'}
+    # # build graph
+    # graph = build_text_graph(raw_text,args)
+    # # get clusters
+    # core_nodes_dict = core_cluster(graph, args)
+    
+    # read in data
+    df = pd.read_csv('data/desc_and_questions.csv')
+    # initialize df to track missing schema
+    df_ms = pd.DataFrame()
+    # this is for debugging, comment out usually
+    #df = df.head(10)
+    # get global clusters (separate sets of global clusters by 'topic' column)
+    for topic in list(set(df['topic'].tolist())):
+        # filter df by topic
+        df_topic = df[df['topic']==topic]
+        # build the global schema graph
+        args = {'TokenType':'sentence','EdgeType':'single','GraphType':'undirected'}
+        all_descs = ' '.join(df_topic['description_schema'].tolist())
+        print('building the graph...')
+        graph = build_text_graph(all_descs, args)
+        # get global clusters
+        core_nodes_dict = core_cluster(graph, args)
+        # for rows assoc with the topic, get missing info
+        miss_info = []
+        for local_desc in df_topic['description_schema'].tolist():
+            cur_miss_info_keys = get_miss_info(local_desc, core_nodes_dict, .85, graph)
+            #print(local_desc, cur_miss_info_keys)
+            cur_miss_info = ''
+            for key in cur_miss_info_keys:
+                tmp = ' '.join([graph.nodes[x]['token'] for x in core_nodes_dict[key]])
+                cur_miss_info += tmp
+            miss_info.append(cur_miss_info)
+        df_topic['missing_schema_graph'] = miss_info
+        #print(len(list(set(df_topic['missing_schema_graph'].tolist()))))
+        # update df_ms
+        df_ms = pd.concat([df_ms, df_topic],ignore_index=True)
+    # write out to a file that will be fed to BART
+    df_ms.to_csv('all_missing_schema_DSG.csv')
 
 if __name__ == '__main__':
     main()
